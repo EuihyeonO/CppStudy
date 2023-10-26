@@ -131,7 +131,9 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="호텔 대실.cpp" />
+    <ClCompile Include="11047.cpp" />
+    <ClCompile Include="체육복.cpp" />
+    <ClCompile Include="호텔 대실%28N%29.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -12,7 +12,13 @@
     <ClCompile Include="10798.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="호텔 대실.cpp">
+    <ClCompile Include="호텔 대실%28N%29.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="11047.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="체육복.cpp">
       <Filter>Programmers</Filter>
     </ClCompile>
   </ItemGroup>
