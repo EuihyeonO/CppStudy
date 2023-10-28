@@ -21,5 +21,8 @@
     <ClCompile Include="체육복.cpp">
       <Filter>Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="조이스틱.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

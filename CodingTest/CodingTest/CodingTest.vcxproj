@@ -132,6 +132,7 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="11047.cpp" />
+    <ClCompile Include="조이스틱.cpp" />
     <ClCompile Include="체육복.cpp" />
     <ClCompile Include="호텔 대실%28N%29.cpp" />
   </ItemGroup>
