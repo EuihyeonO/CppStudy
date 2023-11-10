@@ -125,8 +125,7 @@ int solution(string name)
     return MinCount;
 }
 
-int main()
-{
-
-    return 0;
-}
+//int main()
+//{
+//    return 0;
+//}
