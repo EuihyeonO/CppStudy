@@ -132,6 +132,7 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="11047.cpp" />
+    <ClCompile Include="11687.cpp" />
     <ClCompile Include="17266.cpp" />
     <ClCompile Include="1920.cpp" />
     <ClCompile Include="2178.cpp" />
@@ -139,6 +140,7 @@
     <ClCompile Include="2792.cpp" />
     <ClCompile Include="2828%28N%29.cpp" />
     <ClCompile Include="2910.cpp" />
+    <ClCompile Include="3020.cpp" />
     <ClCompile Include="조이스틱.cpp" />
     <ClCompile Include="체육복.cpp" />
     <ClCompile Include="호텔 대실%28N%29.cpp" />
