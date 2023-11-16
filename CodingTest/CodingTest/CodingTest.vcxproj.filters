@@ -51,5 +51,23 @@
     <ClCompile Include="3020.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="프로세스.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬의 곱셈.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="1463.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="9095.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="11726%28N%29.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2579.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
