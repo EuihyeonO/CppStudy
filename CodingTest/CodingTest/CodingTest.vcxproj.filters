@@ -84,13 +84,22 @@
     <ClCompile Include="10813.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="14719.cpp">
+    <ClCompile Include="14719%28N%29.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1010.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="15663.cpp">
+    <ClCompile Include="15663%28N%29.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2056.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1516.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2252.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>
