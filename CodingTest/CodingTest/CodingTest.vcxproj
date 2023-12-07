@@ -76,6 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -104,6 +105,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -136,18 +138,25 @@
     <ClCompile Include="11687.cpp" />
     <ClCompile Include="11722.cpp" />
     <ClCompile Include="11726.cpp" />
+    <ClCompile Include="1260.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="14503.cpp" />
     <ClCompile Include="1463.cpp" />
-    <ClCompile Include="14719%28N%29.cpp" />
     <ClCompile Include="1516.cpp">
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="15663%28N%29.cpp">
+    <ClCompile Include="15663.cpp">
       <SubType>
       </SubType>
     </ClCompile>
     <ClCompile Include="16236.cpp" />
+    <ClCompile Include="1722.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="17266.cpp" />
     <ClCompile Include="1920.cpp" />
     <ClCompile Include="1966.cpp" />
@@ -160,12 +169,19 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="24444.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2579.cpp" />
     <ClCompile Include="2583.cpp" />
     <ClCompile Include="2792.cpp" />
-    <ClCompile Include="2828%28N%29.cpp" />
     <ClCompile Include="2910.cpp" />
     <ClCompile Include="3020.cpp" />
+    <ClCompile Include="5557%28N%29.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="9095.cpp" />
     <ClCompile Include="10813.cpp" />
     <ClCompile Include="조이스틱.cpp" />

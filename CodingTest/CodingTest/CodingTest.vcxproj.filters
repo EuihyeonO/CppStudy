@@ -24,9 +24,6 @@
     <ClCompile Include="조이스틱.cpp">
       <Filter>Programmers</Filter>
     </ClCompile>
-    <ClCompile Include="2828%28N%29.cpp">
-      <Filter>BaekJoon</Filter>
-    </ClCompile>
     <ClCompile Include="2910.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
@@ -84,13 +81,10 @@
     <ClCompile Include="10813.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="14719%28N%29.cpp">
-      <Filter>BaekJoon</Filter>
-    </ClCompile>
     <ClCompile Include="1010.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="15663%28N%29.cpp">
+    <ClCompile Include="15663.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2056.cpp">
@@ -100,6 +94,18 @@
       <Filter>BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2252.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="5557%28N%29.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1722.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1260.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="24444.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>
