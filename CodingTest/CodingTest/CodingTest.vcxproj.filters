@@ -108,5 +108,14 @@
     <ClCompile Include="24444.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="14940.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="10974.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="합승택시요금.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
