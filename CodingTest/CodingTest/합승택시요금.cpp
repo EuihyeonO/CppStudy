@@ -1,124 +1,85 @@
 #include <string>
 #include <vector>
-#include <queue>
 #include <climits>
+#include <queue>
 
-struct Node
+using namespace std;
+
+int solution(int n, int s, int a, int b, vector<vector<int>> fares)
 {
-    int Index = 0;
-    std::vector<int> LinkedNodes;
-};
-
-int solution(int n, int s, int a, int b, std::vector<std::vector<int>> fares)
-{
-    std::vector<Node> Nodes(n);
-    std::vector<std::vector<int>> LinkedFare(n, std::vector<int>(n));
-    std::vector<bool> isVisit(n, false);
-
-    for (int i = 0; i < n; i++)
-    {
-        Nodes[i].Index = i;
-    }
+    std::vector<std::vector<int>> LinkNodes(n);
+    std::vector<std::vector<int>> Fares(n, std::vector<int>(n, 0));
 
     for (int i = 0; i < fares.size(); i++)
     {
-        int First = fares[i][0] - 1;
-        int Second = fares[i][1] - 1;
+        int First = fares[i][0];
+        int Second = fares[i][1];
         int Fare = fares[i][2];
 
-        Nodes[First].LinkedNodes.push_back(Second - 1);
-        Nodes[Second].LinkedNodes.push_back(First - 1);
+        First--;
+        Second--;
 
-        LinkedFare[First - 1][Second - 1] = Fare;
-        LinkedFare[Second - 1][First - 1] = Fare;
+        Fares[First][Second] = Fare;
+        Fares[Second][First] = Fare;
+
+        LinkNodes[First].push_back(Second);
+        LinkNodes[Second].push_back(First);
     }
 
-    int StartIndex = s - 1;
-    Node StartNode = Nodes[StartIndex];
+    //모든 노드에서 모든 노드로, Distance[2][4]는 시작점2(3), 도착점4(5). 
 
-    std::queue<Node> BFS;
-    BFS.push(StartNode);
+    std::vector<std::vector<int>> Distance(n, std::vector<int>(n, INT_MAX));
 
-    int SumFare = 0;
-    std::vector<int> FareToStart(n, INT_MAX);
-    FareToStart[StartIndex] = 0;
-    isVisit[StartIndex] = true;
-
-    while (BFS.size() > 0)
+    for (int i = 0; i < n; i++)
     {
-        Node CurNode = BFS.front();
-        BFS.pop();
+        std::priority_queue<std::pair<int, int>> Queue;
 
-        SumFare += FareToStart[CurNode.Index];
+        Distance[i][i] = 0;
+        Queue.push({ 0, i });
 
-        for (int i = 0; i < CurNode.LinkedNodes.size(); i++)
+        while (Queue.size() > 0)
         {
-            int CurIndex = CurNode.LinkedNodes[i];
-            int Fare = LinkedFare[CurNode.Index][CurIndex];
+            int Fare = -Queue.top().first;
+            int Index = Queue.top().second;
+            Queue.pop();
 
-            int TotalFare = SumFare + Fare;
-            FareToStart[CurIndex] = std::min(FareToStart[CurIndex], TotalFare);
-
-            if (isVisit[CurIndex] == false)
+            if (Distance[i][Index] < Fare)
             {
-                isVisit[CurIndex] = true;
+                continue;
+            }
 
-                Node NextNode = Nodes[CurIndex];
-                BFS.push(NextNode);
+            for (int j = 0; j < LinkNodes[Index].size(); j++)
+            {
+                int LinkIndex = LinkNodes[Index][j];
+                int SumFare = Fares[Index][LinkIndex] + Fare;
+
+                if (SumFare < Distance[i][LinkIndex])
+                {
+                    Distance[i][LinkIndex] = SumFare;
+                    Queue.push({ -SumFare, LinkIndex });
+                }
             }
         }
     }
 
-    int StoA = FareToStart[a - 1];
-    int StoB = FareToStart[b - 1];
+    //비용의 최소값 구하기. 어디서 갈라지는 것이 가장 저렴한가?
+    //(Start ~ Node) + (Node ~A) + (Node - B)
 
-    isVisit.clear();
-    isVisit.resize(n, false);
-    FareToStart.clear();
-    FareToStart.resize(n, INT_MAX);
-
-
-    ///
-    SumFare = 0;
-    StartIndex = a - 1;
-    StartNode = Nodes[StartIndex];
-    BFS.push(StartNode);
-    FareToStart[StartIndex] = 0;
-    isVisit[StartIndex] = true;
-
-    while (BFS.size() > 0)
+    int MinFare = INT_MAX;
+    for (int i = 0; i < n; i++)
     {
-        Node CurNode = BFS.front();
-        BFS.pop();
+        int Fare = Distance[s - 1][i] + Distance[i][a - 1] + Distance[i][b - 1];
 
-        SumFare += FareToStart[CurNode.Index];
-
-        for (int i = 0; i < CurNode.LinkedNodes.size(); i++)
+        if (Fare < MinFare)
         {
-            int CurIndex = CurNode.LinkedNodes[i];
-            int Fare = LinkedFare[CurNode.Index][CurIndex];
-
-            int TotalFare = SumFare + Fare;
-            FareToStart[CurIndex] = std::min(FareToStart[CurIndex], TotalFare);
-
-            if (isVisit[CurIndex] == false)
-            {
-                isVisit[CurIndex] = true;
-
-                Node NextNode = Nodes[CurIndex];
-                BFS.push(NextNode);
-            }
+            MinFare = Fare;
         }
     }
 
-    int AtoB = FareToStart[b - 1];
-    int AtoS = FareToStart[s - 1];
-
-    return AtoS;
+    return MinFare;
 }
 
-int main()
-{
-    std::vector<std::vector<int>> aa = { {4, 1, 10}, {3, 5, 24}, {5, 6, 2}, {3, 1, 41}, {5, 1, 24}, {4, 6, 50}, {2, 4, 66}, {2, 3, 22}, {1, 6, 25} };
-    solution(6, 4, 6, 2, aa);
-}
+//int main()
+//{
+//    return 0;
+//}

@@ -117,5 +117,8 @@
     <ClCompile Include="합승택시요금.cpp">
       <Filter>Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="14923.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
