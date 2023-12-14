@@ -3,6 +3,7 @@
 #include <assert.h>
 #include <windows.h>
 #include <vector>
+#include <chrono>
 
 template <typename T>
 class Vector
@@ -55,14 +56,14 @@ public:
 
 //±â´É
 public:
-	void push_back(T _Data)
+	void push_back(const T& _Data)
 	{
 		if (ElementSize >= MemSize)
 		{
-			resize(static_cast<size_t>(MemSize * 1.5));
+			reserve(static_cast<size_t>(MemSize * 1.5));
 		}
 
-		Begin[ElementSize] = _Data;
+		Begin[ElementSize] = std::move(_Data);
 		ElementSize++;
 	}
 
@@ -128,12 +129,4 @@ private:
 int main()
 {
 	Vector<int> A;
-	A.resize(10);
-
-	for (int i = 0; i < A.size(); i++)
-	{
-		std::cout << A[i] << std::endl;
-	}
-
-	int a = 0;
 };
