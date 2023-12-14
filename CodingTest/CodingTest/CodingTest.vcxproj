@@ -196,6 +196,7 @@
     </ClCompile>
     <ClCompile Include="9095.cpp" />
     <ClCompile Include="10813.cpp" />
+    <ClCompile Include="Vector 구현.cpp" />
     <ClCompile Include="조이스틱.cpp" />
     <ClCompile Include="체육복.cpp" />
     <ClCompile Include="프로세스.cpp" />
