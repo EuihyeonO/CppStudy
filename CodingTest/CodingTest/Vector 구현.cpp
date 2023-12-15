@@ -14,7 +14,7 @@ public:
 	Vector()
 	{
 		Begin = new T[4]();
-		MemSize = 4;
+		Capacity = 4;
 	}
 
 	~Vector() {}
@@ -23,8 +23,8 @@ public:
 	Vector(size_t _Size)
 	{
 		Begin = new T[_Size]();
-		MemSize = _Size;
-		ElementSize = _Size;
+		Capacity = _Size;
+		Size = _Size;
 	}
 
 	//인수가 두개가 들어오면, 해당 데이터로 Resize;
@@ -37,15 +37,15 @@ public:
 			Begin[i] = std::move(_Data);
 		}
 
-		MemSize = _Size;
-		ElementSize = _Size;
+		Capacity = _Size;
+		Size = _Size;
 	}
 
 //연산자 오버로딩
 public:
 	T& operator[](int _Index)
 	{
-		if (_Index >= ElementSize)
+		if (_Index >= Size)
 		{
 			MessageBoxA(NULL, "인덱스 초과", "알림", MB_OK);
 			assert(false);
@@ -58,13 +58,13 @@ public:
 public:
 	void push_back(const T& _Data)
 	{
-		if (ElementSize >= MemSize)
+		if (Size >= Capacity)
 		{
-			reserve(static_cast<size_t>(MemSize * 1.5));
+			reserve(static_cast<size_t>(Capacity * 1.5));
 		}
 
-		Begin[ElementSize] = std::move(_Data);
-		ElementSize++;
+		Begin[Size] = std::move(_Data);
+		Size++;
 	}
 
 	/*
@@ -78,7 +78,7 @@ public:
 
 		for (int i = 0; i < _Size; i++)
 		{
-			if (i >= ElementSize)
+			if (i >= Size)
 			{
 				NewVector[i] = std::move(T());
 				continue;
@@ -90,43 +90,43 @@ public:
 		delete(Begin);
 		Begin = NewVector;
 
-		ElementSize = _Size;
-		MemSize = _Size;
+		Size = _Size;
+		Capacity = _Size;
 	}
 
 	void reserve(size_t _Size)
 	{
-		if (MemSize >= _Size)
+		if (Capacity >= _Size)
 		{
 			return;
 		}
 
 		T* NewVector = new T[_Size]();
 
-		for (int i = 0; i < ElementSize; i++)
+		for (int i = 0; i < Size; i++)
 		{
 			NewVector[i] = std::move(Begin[i]);
 		}
 
 		delete(Begin);
 		Begin = NewVector;
-		MemSize = _Size;
+		Capacity = _Size;
 	}
 
 	size_t size()
 	{
-		return ElementSize;
+		return Size;
 	}
 
 private:
 
 	T* Begin = nullptr;
 
-	size_t ElementSize = 0;
-	size_t MemSize = 0;
+	size_t Size = 0;
+	size_t Capacity = 0;
 };
 
-int main()
-{
-	Vector<int> A;
-};
+//int main()
+//{
+//	Vector<int> A;
+//};

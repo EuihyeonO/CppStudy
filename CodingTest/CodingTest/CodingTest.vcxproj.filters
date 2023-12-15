@@ -126,5 +126,26 @@
     <ClCompile Include="Vector 구현.cpp">
       <Filter>StudyCode</Filter>
     </ClCompile>
+    <ClCompile Include="move semantics 테스트.cpp">
+      <Filter>StudyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="예외처리.cpp">
+      <Filter>StudyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="map, unordered_map 속도비교 .cpp">
+      <Filter>StudyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="14889%28N%29.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="석유 시추.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="후보키%28N%29.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="List 구현.cpp">
+      <Filter>StudyCode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
