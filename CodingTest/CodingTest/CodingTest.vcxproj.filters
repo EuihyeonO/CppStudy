@@ -99,9 +99,6 @@
     <ClCompile Include="2252.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="5557%28N%29.cpp">
-      <Filter>BaekJoon</Filter>
-    </ClCompile>
     <ClCompile Include="1722.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
@@ -135,7 +132,7 @@
     <ClCompile Include="map, unordered_map 속도비교 .cpp">
       <Filter>StudyCode</Filter>
     </ClCompile>
-    <ClCompile Include="14889%28N%29.cpp">
+    <ClCompile Include="14889.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="석유 시추.cpp">
@@ -145,6 +142,12 @@
       <Filter>Programmers</Filter>
     </ClCompile>
     <ClCompile Include="List 구현.cpp">
+      <Filter>StudyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="17144.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2진수 16진수.cpp">
       <Filter>StudyCode</Filter>
     </ClCompile>
   </ItemGroup>

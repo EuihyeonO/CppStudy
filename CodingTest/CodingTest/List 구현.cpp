@@ -163,13 +163,13 @@ public:
 	}
 };
 
-int main()
-{
-	List<int> MyList;
-
-	MyList.insert(0);
-	MyList.insert(1);
-	MyList.insert(2);
-	MyList.insert(3);
-
-}
+//int main()
+//{
+//	List<int> MyList;
+//
+//	MyList.insert(0);
+//	MyList.insert(1);
+//	MyList.insert(2);
+//	MyList.insert(3);
+//
+//}
