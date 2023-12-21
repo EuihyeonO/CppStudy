@@ -104,7 +104,7 @@ public:
 	}
 //±â´É
 public:
-	void insert(const T& _Data)
+	void push_back(const T& _Data)
 	{
 
 		if (Begin == nullptr)
