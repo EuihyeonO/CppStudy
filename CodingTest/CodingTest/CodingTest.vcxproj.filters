@@ -150,5 +150,14 @@
     <ClCompile Include="2진수 16진수.cpp">
       <Filter>StudyCode</Filter>
     </ClCompile>
+    <ClCompile Include="2003.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1806.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="구명보트.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

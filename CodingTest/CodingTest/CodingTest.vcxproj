@@ -178,8 +178,16 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="17266.cpp" />
+    <ClCompile Include="1806.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="1920.cpp" />
     <ClCompile Include="1966.cpp" />
+    <ClCompile Include="2003.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2056.cpp">
       <SubType>
       </SubType>
@@ -205,6 +213,10 @@
     <ClCompile Include="map, unordered_map 속도비교 .cpp" />
     <ClCompile Include="move semantics 테스트.cpp" />
     <ClCompile Include="Vector 구현.cpp" />
+    <ClCompile Include="구명보트.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="석유 시추.cpp">
       <SubType>
       </SubType>
