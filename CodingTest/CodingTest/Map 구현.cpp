@@ -1,10 +1,11 @@
 #include <map>
+#include <cassert>
 #include <iostream>
 
 //typedef int T;
 
 
-template <typename T>
+template <typename KeyType, typename DataType>
 class MyMap
 {
 
@@ -17,7 +18,8 @@ private:
 
 	struct Node
 	{
-		T Data;
+		KeyType Key;
+		DataType Data;
 
 		NodeColor Color = NodeColor::Black;
 
@@ -36,9 +38,86 @@ public:
 
 	~MyMap() {}
 
+	class Iterator
+	{
+	public:
+		Iterator(Node* InitNode)
+		{
+			CurNode = InitNode;
+		}
+		
+		Node* operator*() const
+		{
+			return CurNode;
+		}
+
+		Node* operator->() const
+		{
+			return CurNode;
+		}
+
+		void operator=(const DataType& _Data)
+		{
+			CurNode->Data = _Data;
+		}
+
+		bool operator==(const Node* _Ptr) const
+		{
+			if (_Ptr == CurNode)
+			{
+				return true;
+			}
+			
+			return false;
+		}
+
+	private:
+		Node* CurNode;
+	};
+
 public:
 
-	void insert(const T& _Data)
+	DataType& operator[](const KeyType _Key) const
+	{
+		Iterator FindIter = Find(_Key);
+		
+		assert(FindIter != nullptr);
+		std::cout << "맵에 유효하지 않은 인덱스로 접근하려 하였습니다. [존재하지 않는 키]";
+
+		return FindIter->Data;
+	}
+
+	Iterator Find(const KeyType& _Key) const
+	{
+		Node* CurNode = RootNode;
+
+		while (CurNode != NilNode)
+		{
+			if (CurNode->Key == _Key)
+			{
+				break;
+			}
+			else if (CurNode->Key > _Key)
+			{
+				CurNode = CurNode->LeftChild;
+			}
+			else
+			{
+				CurNode = CurNode->RightChild;
+			}
+		}
+
+		if (CurNode == NilNode)
+		{
+			return Iterator(nullptr);
+		}
+		else
+		{
+			return Iterator(CurNode);
+		}
+	}
+
+	void insert(const KeyType& _Key, const DataType& _Data)
 	{
 		Node* NewNode = nullptr;
 
@@ -46,11 +125,11 @@ public:
 		if (Size == 0)
 		{
 			NewNode = new Node();
+			NewNode->Key = _Key;
 			NewNode->Data = _Data;
 
 			RootNode = NewNode;
 			RootNode->Color = NodeColor::Black;
-			
 
 			Size++;
 
@@ -64,20 +143,23 @@ public:
 			//삽입
 			while (true)
 			{
-				//데이터가 같다면, 데이터만 바꾸고 끝.
-				if (_Data == CurNode->Data)
+				//키가 같다면, 데이터만 바꾸고 끝.
+				if (_Key == CurNode->Key)
 				{
 					CurNode->Data = _Data;
 					return;
 				}
 				//데이터가 더 작다면, 해당 노드의 왼쪽노드를 탐색.
-				else if (_Data < CurNode->Data)
+				else if (_Key < CurNode->Key)
 				{
 					//노드의 왼쪽 노드가 nullptr이면, 새로 들어온 노드를 왼쪽 노드로 설정.
 					if (CurNode->LeftChild == NilNode)
 					{
 						NewNode = new Node();
+
+						NewNode->Key = _Key;
 						NewNode->Data = _Data;
+
 						NewNode->Parent = CurNode;
 						NewNode->Color = NodeColor::Red;
 						
@@ -93,14 +175,16 @@ public:
 						continue;
 					}
 				}
-				else if (_Data > CurNode->Data)
+				else if (_Key > CurNode->Key)
 				{
 					//노드의 오른족 노드가 nullptr이면, 새로 들어온 노드를 오른쪽 노드로 설정.
 					if (CurNode->RightChild == NilNode)
 					{
 						NewNode = new Node();
 
+						NewNode->Key = _Key;
 						NewNode->Data = _Data;
+
 						NewNode->Parent = CurNode;
 						NewNode->Color = NodeColor::Red;
 
@@ -126,8 +210,7 @@ public:
 
 			try
 			{
-				if (NewNode->Parent == NilNode){ throw NewNode; }
-
+				if (NewNode->Parent == NilNode) { throw NewNode; }
 				ReBuilding(NewNode);
 			}
 
@@ -142,17 +225,17 @@ public:
 	}
 
 	//Debug
-	void OutPut(Node* _Node)
+	void PrintBySort(Node* _Node)
 	{
 		if (_Node == NilNode)
 		{
 			return;
 		}
 
-		OutPut(_Node->LeftChild);
+		PrintBySort(_Node->LeftChild);
 		std::cout << _Node->Data << " ";
 		std::cout << static_cast<int>(_Node->Color) << std::endl;
-		OutPut(_Node->RightChild);
+		PrintBySort(_Node->RightChild);
 	}
 
 private:
@@ -381,35 +464,42 @@ private:
 		NilNode->Color = NodeColor::Black;
 	}
 
+	void SetBegin()
+	{
+		Node* CurNode = RootNode;
+
+		while (CurNode->LeftChild != nullptr)
+		{
+			CurNode = CurNode->LeftChild;
+		}
+		
+		BeginNode = CurNode;
+	}
+
 public:
-	Node* RootNode = nullptr;
+
 private:
+	Node* RootNode = nullptr;
+	Node* BeginNode = nullptr;
 	size_t Size = 0;
 };
 
-template <typename T>
-MyMap<T>::Node* MyMap<T>::NilNode = nullptr;
+template <typename KeyType, typename DataType>
+MyMap<KeyType, DataType>::Node* MyMap<KeyType, DataType>::NilNode = nullptr;
 
 int main()
 {
 
-	MyMap<int> NewMap;
-	NewMap.insert(13);
-	NewMap.insert(16);
-	NewMap.insert(103);
-	NewMap.insert(5);
-	NewMap.insert(1114);
-	NewMap.insert(1);
-	NewMap.insert(10);
-	NewMap.insert(3);
-	NewMap.insert(22);
-	NewMap.insert(8);
-	NewMap.insert(1111);
-	NewMap.insert(9);
-	NewMap.insert(11);
-	NewMap.insert(12);
+	MyMap<int, int> NewMap;
 
+	NewMap.insert(13, 0);
+	NewMap.insert(1, 0);
+	NewMap.insert(5, 0);
+	NewMap.insert(3, 5);
+	NewMap.insert(8, 0);
+	NewMap.insert(7, 0);
+	NewMap.insert(6, 0);
+	NewMap.insert(16, 0);
 
-	NewMap.OutPut(NewMap.RootNode);
 	return 0;
 }
