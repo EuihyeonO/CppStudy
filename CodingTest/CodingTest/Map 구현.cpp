@@ -232,19 +232,27 @@ private:
 		Node* AncestorNode = nullptr;
 		Node* UncleNode = nullptr;
 
-		while(_CurNode->Color == NodeColor::Red)
-		{
-			ParentNode = _CurNode->Parent;
-			AncestorNode = ParentNode->Parent;
+		Node* CurNode = _CurNode;
 
-			if (_CurNode == RootNode)
+		while(true)
+		{
+			if (CurNode == RootNode)
 			{
-				return;
+				RootNode->Color = NodeColor::Black;
+				break;
 			}
 
-			if (_CurNode->Parent == RootNode)
+			if (CurNode->Parent == RootNode)
 			{
-				return;
+				break;
+			}
+
+			ParentNode = CurNode->Parent;
+			AncestorNode = ParentNode->Parent;
+
+			if (!(CurNode->Color == NodeColor::Red && ParentNode->Color == NodeColor::Red))
+			{
+				break;
 			}
 
 			if (ParentNode == AncestorNode->LeftChild)
@@ -262,11 +270,13 @@ private:
 
 			if (UncleNode->Color == NodeColor::Black)
 			{
-				ReStructing(_CurNode, ParentNode, AncestorNode);
+				ReStructing(CurNode, ParentNode, AncestorNode);
 			}
 			else if (UncleNode->Color == NodeColor::Red)
 			{
-				ReColoring(_CurNode);
+				ReColoring(CurNode);
+
+				CurNode = AncestorNode;
 			}
 		}
 	}
@@ -341,40 +351,28 @@ private:
 			return;
 		}
 
-		while (ParentNode->Color == NodeColor::Red)
+		ParentNode->Color = NodeColor::Black;
+		AncestorNode->Color = NodeColor::Red;
+
+		if (ParentNode == AncestorNode->LeftChild)
 		{
-			ParentNode->Color = NodeColor::Black;
-			AncestorNode->Color = NodeColor::Red;
-
-			if (ParentNode == AncestorNode->LeftChild)
-			{
-				UncleNode = AncestorNode->RightChild;
-			}
-			else if (ParentNode == AncestorNode->RightChild)
-			{
-				UncleNode = AncestorNode->LeftChild;
-			}
-			else
-			{
-				return;
-			}
-
-			if (UncleNode != NilNode)
-			{
-				UncleNode->Color = NodeColor::Black;
-			}
-
-			_CurNode = AncestorNode;
-
-			if (_CurNode == RootNode)
-			{
-				_CurNode->Color = NodeColor::Black;
-				return;
-			}
-
-			ParentNode = _CurNode->Parent;
-			AncestorNode = ParentNode->Parent;
+			UncleNode = AncestorNode->RightChild;
 		}
+		else if (ParentNode == AncestorNode->RightChild)
+		{
+			UncleNode = AncestorNode->LeftChild;
+		}
+		else
+		{
+			return;
+		}
+
+		if (UncleNode != NilNode)
+		{
+			UncleNode->Color = NodeColor::Black;
+		}
+
+		_CurNode = AncestorNode;
 	}
 
 	void CreateNilNode()
@@ -396,21 +394,21 @@ int main()
 {
 
 	MyMap<int> NewMap;
-	NewMap.insert(1);
-	NewMap.insert(3);
-	NewMap.insert(5);
-	NewMap.insert(8);
-	NewMap.insert(9);
-	NewMap.insert(10);
-	NewMap.insert(11);
-	NewMap.insert(12);
-	NewMap.insert(13);
 	NewMap.insert(13);
 	NewMap.insert(16);
-	NewMap.insert(22);
 	NewMap.insert(103);
-	NewMap.insert(1111);
+	NewMap.insert(5);
 	NewMap.insert(1114);
+	NewMap.insert(1);
+	NewMap.insert(10);
+	NewMap.insert(3);
+	NewMap.insert(22);
+	NewMap.insert(8);
+	NewMap.insert(1111);
+	NewMap.insert(9);
+	NewMap.insert(11);
+	NewMap.insert(12);
+
 
 	NewMap.OutPut(NewMap.RootNode);
 	return 0;
