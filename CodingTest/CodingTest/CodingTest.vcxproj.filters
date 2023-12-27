@@ -168,5 +168,8 @@
     <ClCompile Include="Map 구현.cpp">
       <Filter>StudyCode</Filter>
     </ClCompile>
+    <ClCompile Include="Heap, Priority_Queue 구현.cpp">
+      <Filter>StudyCode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
