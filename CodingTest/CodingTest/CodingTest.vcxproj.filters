@@ -156,7 +156,7 @@
     <ClCompile Include="1806.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="구명보트%28N%29.cpp">
+    <ClCompile Include="구명보트.cpp">
       <Filter>Programmers</Filter>
     </ClCompile>
     <ClCompile Include="프로세스가 사용중인 메모리 양 체크.cpp">
@@ -170,6 +170,15 @@
     </ClCompile>
     <ClCompile Include="Heap, Priority_Queue 구현.cpp">
       <Filter>StudyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="3060.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="17143.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2512.cpp">
+      <Filter>BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

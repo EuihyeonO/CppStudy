@@ -169,6 +169,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="16236.cpp" />
+    <ClCompile Include="17143.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="17144.cpp">
       <SubType>
       </SubType>
@@ -201,12 +205,20 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="2512.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2579.cpp" />
     <ClCompile Include="2583.cpp" />
     <ClCompile Include="2792.cpp" />
     <ClCompile Include="2910.cpp" />
     <ClCompile Include="2진수 16진수.cpp" />
     <ClCompile Include="3020.cpp" />
+    <ClCompile Include="3060.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="9095.cpp" />
     <ClCompile Include="10813.cpp" />
     <ClCompile Include="Heap, Priority_Queue 구현.cpp" />
@@ -215,7 +227,7 @@
     <ClCompile Include="map, unordered_map 속도비교 .cpp" />
     <ClCompile Include="move semantics 테스트.cpp" />
     <ClCompile Include="Vector 구현.cpp" />
-    <ClCompile Include="구명보트%28N%29.cpp">
+    <ClCompile Include="구명보트.cpp">
       <SubType>
       </SubType>
     </ClCompile>
