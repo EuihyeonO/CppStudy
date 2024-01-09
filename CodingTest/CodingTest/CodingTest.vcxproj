@@ -231,6 +231,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="디펜스게임.cpp" />
     <ClCompile Include="보석 쇼핑.cpp" />
     <ClCompile Include="프로세스가 사용중인 메모리 양 체크.cpp" />
     <ClCompile Include="석유 시추.cpp">

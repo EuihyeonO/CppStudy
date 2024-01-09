@@ -180,5 +180,8 @@
     <ClCompile Include="2512.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="디펜스게임.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
