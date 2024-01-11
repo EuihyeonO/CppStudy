@@ -235,8 +235,11 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="구조체 VS 클래스.cpp" />
     <ClCompile Include="디펜스게임.cpp" />
     <ClCompile Include="보석 쇼핑.cpp" />
+    <ClCompile Include="N개의 최소공배수.cpp" />
+    <ClCompile Include="포인터 VS 배열.cpp" />
     <ClCompile Include="프로세스가 사용중인 메모리 양 체크.cpp" />
     <ClCompile Include="석유 시추.cpp">
       <SubType>
@@ -251,7 +254,6 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="행렬의 곱셈.cpp" />
-    <ClCompile Include="호텔 대실%28N%29.cpp" />
     <ClCompile Include="후보키.cpp">
       <SubType>
       </SubType>
