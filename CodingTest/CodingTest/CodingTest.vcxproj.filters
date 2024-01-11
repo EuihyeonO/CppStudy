@@ -183,5 +183,8 @@
     <ClCompile Include="디펜스게임.cpp">
       <Filter>Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="1300.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

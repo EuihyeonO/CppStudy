@@ -221,6 +221,10 @@
     </ClCompile>
     <ClCompile Include="9095.cpp" />
     <ClCompile Include="10813.cpp" />
+    <ClCompile Include="1300.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Heap, Priority_Queue 구현.cpp" />
     <ClCompile Include="List 구현.cpp" />
     <ClCompile Include="Map 구현.cpp" />
