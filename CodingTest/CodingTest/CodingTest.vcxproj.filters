@@ -195,5 +195,8 @@
     <ClCompile Include="파일명 정렬.cpp">
       <Filter>Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="삼각 달팽이.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
