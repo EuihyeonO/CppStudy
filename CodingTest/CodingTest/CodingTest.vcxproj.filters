@@ -192,5 +192,8 @@
     <ClCompile Include="N개의 최소공배수.cpp">
       <Filter>Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="파일명 정렬.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
