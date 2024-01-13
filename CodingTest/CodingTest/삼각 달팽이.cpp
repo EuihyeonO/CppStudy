@@ -3,26 +3,6 @@
 
 using namespace std;
 
-enum Dir
-{
-	Down,
-	Right,
-	Up,
-};
-
-int GetFactorial(int _Num)
-{
-	int Return = 1;
-
-	while (_Num > 0)
-	{
-		Return *= _Num;
-		_Num--;
-	}
-
-	return Return;
-}
-
 vector<int> solution(int n)
 {
 	int MaxHeight = n;
@@ -42,7 +22,7 @@ vector<int> solution(int n)
 	DirArr[2] = { -1, -1 };
 
 	std::vector<int> Answer;
-	Answer.reserve(GetFactorial(MaxHeight));
+	Answer.reserve((MaxHeight) * (MaxHeight + 1) / 2);
 	
 	std::pair<int, int> CurPos = { 0, 0 };
 	int Count = 0;

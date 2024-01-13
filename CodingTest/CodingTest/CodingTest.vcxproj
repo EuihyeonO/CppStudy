@@ -256,6 +256,7 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="행렬의 곱셈.cpp" />
+    <ClCompile Include="혼자 놀기의 달인.cpp" />
     <ClCompile Include="후보키.cpp">
       <SubType>
       </SubType>
