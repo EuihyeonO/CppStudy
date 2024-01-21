@@ -146,6 +146,7 @@
     <ClCompile Include="11687.cpp" />
     <ClCompile Include="11722.cpp" />
     <ClCompile Include="11726.cpp" />
+    <ClCompile Include="124나라의 숫자.cpp" />
     <ClCompile Include="1260.cpp">
       <SubType>
       </SubType>
@@ -238,22 +239,47 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="Heap, Priority_Queue 구현.cpp" />
+    <ClCompile Include="JadenCase 문자열 만들기.cpp" />
     <ClCompile Include="List 구현.cpp" />
     <ClCompile Include="Map 구현.cpp" />
     <ClCompile Include="map, unordered_map 속도비교 .cpp" />
     <ClCompile Include="move semantics 테스트.cpp" />
     <ClCompile Include="Vector 구현.cpp" />
+    <ClCompile Include="게임 맵 최단거리.cpp" />
+    <ClCompile Include="괄호 회전하기.cpp" />
+    <ClCompile Include="교점에 별 만들기.cpp" />
     <ClCompile Include="구명보트.cpp">
       <SubType>
       </SubType>
     </ClCompile>
     <ClCompile Include="구조체 VS 클래스.cpp" />
+    <ClCompile Include="귤 고르기.cpp" />
+    <ClCompile Include="기능 개발.cpp" />
+    <ClCompile Include="다음 큰 숫자.cpp" />
+    <ClCompile Include="당구 연습.cpp" />
     <ClCompile Include="디펜스게임.cpp" />
+    <ClCompile Include="롤케이크 자르기.cpp" />
+    <ClCompile Include="문자열 압축.cpp" />
+    <ClCompile Include="방문 길이.cpp" />
     <ClCompile Include="보석 쇼핑.cpp" />
     <ClCompile Include="N개의 최소공배수.cpp" />
     <ClCompile Include="삼각 달팽이.cpp" />
+    <ClCompile Include="숫자의 표현.cpp" />
+    <ClCompile Include="스킬트리.cpp" />
+    <ClCompile Include="연속 부분 수열 합의 개수.cpp" />
+    <ClCompile Include="영어 끝말잇기.cpp" />
+    <ClCompile Include="예상 대진표.cpp" />
+    <ClCompile Include="올바른 괄호.cpp" />
+    <ClCompile Include="이진 변환 반복하기.cpp" />
+    <ClCompile Include="점프와 순간이동.cpp" />
+    <ClCompile Include="주식 가격.cpp" />
+    <ClCompile Include="짝지어 제거하기.cpp" />
+    <ClCompile Include="최댓값과 최솟값.cpp" />
+    <ClCompile Include="최솟값 만들기.cpp" />
+    <ClCompile Include="카펫.cpp" />
     <ClCompile Include="파일명 정렬.cpp" />
     <ClCompile Include="포인터 VS 배열.cpp" />
+    <ClCompile Include="프렌즈 4블록.cpp" />
     <ClCompile Include="프로세스가 사용중인 메모리 양 체크.cpp" />
     <ClCompile Include="석유 시추.cpp">
       <SubType>
@@ -263,6 +289,7 @@
     <ClCompile Include="조이스틱.cpp" />
     <ClCompile Include="체육복.cpp" />
     <ClCompile Include="프로세스.cpp" />
+    <ClCompile Include="피보나치 수.cpp" />
     <ClCompile Include="합승택시요금.cpp">
       <SubType>
       </SubType>

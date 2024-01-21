@@ -210,5 +210,86 @@
     <ClCompile Include="1038.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="당구 연습.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="교점에 별 만들기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열 압축.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="124나라의 숫자.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="프렌즈 4블록.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="롤케이크 자르기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="스킬트리.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="주식 가격.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="방문 길이.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="게임 맵 최단거리.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="기능 개발.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호 회전하기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="연속 부분 수열 합의 개수.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="귤 고르기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="예상 대진표.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="점프와 순간이동.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="영어 끝말잇기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="카펫.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="짝지어 제거하기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치 수.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="다음 큰 숫자.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자의 표현.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="이진 변환 반복하기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="올바른 괄호.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="최솟값 만들기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="JadenCase 문자열 만들기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="최댓값과 최솟값.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
