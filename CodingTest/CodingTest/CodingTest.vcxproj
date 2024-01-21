@@ -130,6 +130,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1010.cpp" />
+    <ClCompile Include="1038.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="10798.cpp">
       <SubType>
       </SubType>
@@ -181,12 +185,20 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="17265.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="17266.cpp" />
     <ClCompile Include="1806.cpp">
       <SubType>
       </SubType>
     </ClCompile>
     <ClCompile Include="1920.cpp" />
+    <ClCompile Include="1926.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="1966.cpp" />
     <ClCompile Include="2003.cpp">
       <SubType>
