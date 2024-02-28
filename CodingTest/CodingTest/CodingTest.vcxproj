@@ -143,11 +143,23 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="11047.cpp" />
+    <ClCompile Include="1141.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="11559.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="11687.cpp" />
     <ClCompile Include="11722.cpp" />
     <ClCompile Include="11726.cpp" />
     <ClCompile Include="124나라의 숫자.cpp" />
     <ClCompile Include="1260.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="1327.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -169,11 +181,19 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="1520.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="15663.cpp">
       <SubType>
       </SubType>
     </ClCompile>
     <ClCompile Include="16236.cpp" />
+    <ClCompile Include="1655.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="17143.cpp">
       <SubType>
       </SubType>
@@ -209,12 +229,28 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="21610.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2178.cpp" />
+    <ClCompile Include="2206.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2252.cpp">
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="2357.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="24444.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="2470.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -224,6 +260,10 @@
     </ClCompile>
     <ClCompile Include="2579.cpp" />
     <ClCompile Include="2583.cpp" />
+    <ClCompile Include="2623.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2792.cpp" />
     <ClCompile Include="2910.cpp" />
     <ClCompile Include="2진수 16진수.cpp" />
@@ -232,9 +272,25 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="8911.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="9095.cpp" />
     <ClCompile Include="10813.cpp" />
     <ClCompile Include="1300.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="9935.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="8111.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="2505.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -266,6 +322,10 @@
     <ClCompile Include="삼각 달팽이.cpp" />
     <ClCompile Include="숫자의 표현.cpp" />
     <ClCompile Include="스킬트리.cpp" />
+    <ClCompile Include="야근 지수.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="연속 부분 수열 합의 개수.cpp" />
     <ClCompile Include="영어 끝말잇기.cpp" />
     <ClCompile Include="예상 대진표.cpp" />
@@ -290,6 +350,10 @@
     <ClCompile Include="체육복.cpp" />
     <ClCompile Include="프로세스.cpp" />
     <ClCompile Include="피보나치 수.cpp" />
+    <ClCompile Include="할인 행사.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="합승택시요금.cpp">
       <SubType>
       </SubType>
