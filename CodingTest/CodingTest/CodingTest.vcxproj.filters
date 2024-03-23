@@ -369,7 +369,25 @@
     <ClCompile Include="8972.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="14653.cpp">
+    <ClCompile Include="14653%28N%29.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="26091.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="14658.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="18222.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="15988.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="17615.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="16472.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>
