@@ -163,6 +163,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="1389.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="14503.cpp" />
     <ClCompile Include="1463.cpp" />
     <ClCompile Include="14653%28N%29.cpp">
@@ -232,6 +236,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="1806.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="18188.cpp">
       <SubType>
       </SubType>
     </ClCompile>
