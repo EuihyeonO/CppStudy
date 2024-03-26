@@ -10,6 +10,9 @@
     <Filter Include="TestCode">
       <UniqueIdentifier>{4531c7ca-4070-4ca3-a278-222d547526c0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Study">
+      <UniqueIdentifier>{52d475fd-e32a-4134-a1e3-d558742615b7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10798.cpp">
@@ -393,6 +396,17 @@
     <ClCompile Include="1389.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="18188.cpp" />
+    <ClCompile Include="20152.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="18188.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="7562.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="16398.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
