@@ -386,8 +386,6 @@
     <ClCompile Include="JadenCase 문자열 만들기.cpp" />
     <ClCompile Include="List 구현.cpp" />
     <ClCompile Include="Map 구현.cpp" />
-    <ClCompile Include="map, unordered_map 속도비교 .cpp" />
-    <ClCompile Include="move semantics 테스트.cpp" />
     <ClCompile Include="Vector 구현.cpp" />
     <ClCompile Include="게임 맵 최단거리.cpp" />
     <ClCompile Include="괄호 회전하기.cpp" />
@@ -428,7 +426,6 @@
     <ClCompile Include="파일명 정렬.cpp" />
     <ClCompile Include="포인터 VS 배열.cpp" />
     <ClCompile Include="프렌즈 4블록.cpp" />
-    <ClCompile Include="프로세스가 사용중인 메모리 양 체크.cpp" />
     <ClCompile Include="석유 시추.cpp">
       <SubType>
       </SubType>
