@@ -386,6 +386,10 @@
     <ClCompile Include="JadenCase 문자열 만들기.cpp" />
     <ClCompile Include="List 구현.cpp" />
     <ClCompile Include="Map 구현.cpp" />
+    <ClCompile Include="n^2 배열 자르기.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Vector 구현.cpp" />
     <ClCompile Include="게임 맵 최단거리.cpp" />
     <ClCompile Include="괄호 회전하기.cpp" />
@@ -405,6 +409,10 @@
     <ClCompile Include="방문 길이.cpp" />
     <ClCompile Include="보석 쇼핑.cpp" />
     <ClCompile Include="N개의 최소공배수.cpp" />
+    <ClCompile Include="부대 복귀.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="삼각 달팽이.cpp" />
     <ClCompile Include="숫자의 표현.cpp" />
     <ClCompile Include="스킬트리.cpp" />
@@ -413,6 +421,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="연속 부분 수열 합의 개수.cpp" />
+    <ClCompile Include="연속된 부분 수열의 합.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="영어 끝말잇기.cpp" />
     <ClCompile Include="예상 대진표.cpp" />
     <ClCompile Include="올바른 괄호.cpp" />

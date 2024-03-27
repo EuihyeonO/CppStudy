@@ -399,5 +399,14 @@
     <ClCompile Include="16398.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="부대 복귀.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="n^2 배열 자르기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="연속된 부분 수열의 합.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
