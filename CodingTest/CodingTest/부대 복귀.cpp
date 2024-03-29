@@ -1,6 +1,8 @@
 //#include <string>
 //#include <vector>
 //#include <queue>
+//#include <algorithm>
+//#include <climits>
 //
 //using namespace std;
 //
@@ -10,54 +12,46 @@
 //
 //    for (int i = 0; i < roads.size(); i++)
 //    {
-//        int Left = roads[i][0];
-//        int Right = roads[i][1];
+//        Links[roads[i][0]].push_back(roads[i][1]);
+//        Links[roads[i][1]].push_back(roads[i][0]);
+//    }
 //
-//        Links[Left].push_back(Right);
-//        Links[Right].push_back(Left);
+//    std::vector<int> Costs(n + 1, INT_MAX);
+//    std::vector<bool> isVisit(n + 1, false);
+//
+//    std::priority_queue<std::pair<int, int>, std::vector<std::pair<int, int>>, std::greater<std::pair<int, int>>> Dijk;
+//    Dijk.push({ 0, destination });
+//    Costs[destination] = 0;
+//
+//    while (Dijk.size() > 0)
+//    {
+//        int CurCost = Dijk.top().first;
+//        int CurPos = Dijk.top().second;
+//        Dijk.pop();
+//
+//        for (int i = 0; i < Links[CurPos].size(); i++)
+//        {
+//            int NextPos = Links[CurPos][i];
+//
+//            if (Costs[NextPos] > CurCost + 1)
+//            {
+//                Costs[NextPos] = CurCost + 1;
+//                Dijk.push({ CurCost + 1, NextPos });
+//            }
+//        }
 //    }
 //
 //    std::vector<int> Answers;
+//    Answers.reserve(sources.size());
 //
 //    for (int i = 0; i < sources.size(); i++)
 //    {
-//        std::vector<bool> isVisit(n, false);
-//        std::queue<std::pair<int, int>> BFS;
-//        BFS.push({ sources[i],0 });
-//
-//        isVisit[sources[i]] = true;
-//
-//        bool isFind = false;
-//
-//        while (BFS.size() > 0)
+//        if (Costs[sources[i]] == INT_MAX)
 //        {
-//            int CurPos = BFS.front().first;
-//            int CurDist = BFS.front().second;
-//
-//            BFS.pop();
-//
-//            if (CurPos == destination)
-//            {
-//                Answers.push_back(CurDist);
-//                isFind = true;
-//                break;
-//            }
-//
-//            for (int i = 0; i < Links[CurPos].size(); i++)
-//            {
-//                int NextPos = Links[CurPos][i];
-//                if (isVisit[NextPos] == false)
-//                {
-//                    isVisit[NextPos] = true;
-//                    BFS.push({ NextPos, CurDist + 1 });
-//                }
-//            }
+//            Costs[sources[i]] = -1;
 //        }
 //
-//        if (isFind == false)
-//        {
-//            Answers.push_back(-1);
-//        }
+//        Answers.push_back(Costs[sources[i]]);
 //    }
 //
 //    return Answers;
