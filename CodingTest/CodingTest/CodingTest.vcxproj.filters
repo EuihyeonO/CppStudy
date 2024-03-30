@@ -7,11 +7,11 @@
     <Filter Include="Programmers">
       <UniqueIdentifier>{0c09c1ab-4e85-4a74-81dc-1bc9e65b0b8b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="TestCode">
-      <UniqueIdentifier>{4531c7ca-4070-4ca3-a278-222d547526c0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Study">
       <UniqueIdentifier>{52d475fd-e32a-4134-a1e3-d558742615b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Container">
+      <UniqueIdentifier>{4531c7ca-4070-4ca3-a278-222d547526c0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -121,10 +121,7 @@
       <Filter>BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="Vector 구현.cpp">
-      <Filter>TestCode</Filter>
-    </ClCompile>
-    <ClCompile Include="예외처리.cpp">
-      <Filter>TestCode</Filter>
+      <Filter>Custom Container</Filter>
     </ClCompile>
     <ClCompile Include="14889.cpp">
       <Filter>BaekJoon</Filter>
@@ -136,13 +133,10 @@
       <Filter>Programmers</Filter>
     </ClCompile>
     <ClCompile Include="List 구현.cpp">
-      <Filter>TestCode</Filter>
+      <Filter>Custom Container</Filter>
     </ClCompile>
     <ClCompile Include="17144.cpp">
       <Filter>BaekJoon</Filter>
-    </ClCompile>
-    <ClCompile Include="2진수 16진수.cpp">
-      <Filter>TestCode</Filter>
     </ClCompile>
     <ClCompile Include="2003.cpp">
       <Filter>BaekJoon</Filter>
@@ -157,10 +151,10 @@
       <Filter>Programmers</Filter>
     </ClCompile>
     <ClCompile Include="Map 구현.cpp">
-      <Filter>TestCode</Filter>
+      <Filter>Custom Container</Filter>
     </ClCompile>
     <ClCompile Include="Heap, Priority_Queue 구현.cpp">
-      <Filter>TestCode</Filter>
+      <Filter>Custom Container</Filter>
     </ClCompile>
     <ClCompile Include="3060.cpp">
       <Filter>BaekJoon</Filter>
@@ -176,12 +170,6 @@
     </ClCompile>
     <ClCompile Include="1300.cpp">
       <Filter>BaekJoon</Filter>
-    </ClCompile>
-    <ClCompile Include="구조체 VS 클래스.cpp">
-      <Filter>TestCode</Filter>
-    </ClCompile>
-    <ClCompile Include="포인터 VS 배열.cpp">
-      <Filter>TestCode</Filter>
     </ClCompile>
     <ClCompile Include="N개의 최소공배수.cpp">
       <Filter>Programmers</Filter>

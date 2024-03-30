@@ -334,7 +334,6 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="2진수 16진수.cpp" />
     <ClCompile Include="3020.cpp" />
     <ClCompile Include="3060.cpp">
       <SubType>
@@ -406,7 +405,6 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="구조체 VS 클래스.cpp" />
     <ClCompile Include="귤 고르기.cpp" />
     <ClCompile Include="기능 개발.cpp" />
     <ClCompile Include="다음 큰 숫자.cpp" />
@@ -444,13 +442,11 @@
     <ClCompile Include="최솟값 만들기.cpp" />
     <ClCompile Include="카펫.cpp" />
     <ClCompile Include="파일명 정렬.cpp" />
-    <ClCompile Include="포인터 VS 배열.cpp" />
     <ClCompile Include="프렌즈 4블록.cpp" />
     <ClCompile Include="석유 시추.cpp">
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="예외처리.cpp" />
     <ClCompile Include="조이스틱.cpp" />
     <ClCompile Include="체육복.cpp" />
     <ClCompile Include="프로세스.cpp" />
