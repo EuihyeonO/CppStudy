@@ -408,5 +408,11 @@
     <ClCompile Include="연속된 부분 수열의 합.cpp">
       <Filter>Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="1158.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="11404.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

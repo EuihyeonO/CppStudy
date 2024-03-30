@@ -143,11 +143,19 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="11047.cpp" />
+    <ClCompile Include="11404.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="1141.cpp">
       <SubType>
       </SubType>
     </ClCompile>
     <ClCompile Include="11559.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="1158.cpp">
       <SubType>
       </SubType>
     </ClCompile>
