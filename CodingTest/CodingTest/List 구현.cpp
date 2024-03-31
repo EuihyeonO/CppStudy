@@ -1,5 +1,4 @@
 #include <list>
-#include <iostream>
 
 class Iterator;
 template <typename DataType>
@@ -8,20 +7,19 @@ class List
 public:
 	List()
 	{
-		size_t DataSize = 0;
-
-		Node* Head = nullptr;
-		Node* Tail = nullptr;
+		CreateDummyNode();
 	}
 
 	List(size_t _Size)
 	{
+		CreateDummyNode();
 		Resize(_Size);
 	}
 
 	List(size_t _Size, const DataType& _Data)
 	{
-		Resize(_Data);
+		CreateDummyNode();
+		Resize(_Size, _Data);
 	}
 
 	~List()
@@ -30,25 +28,152 @@ public:
 		{
 			Pop_Back();
 		}
+
+		delete Head;
+		Head = nullptr;
+
+		delete Tail;
+		Tail = nullptr;
 	}
 
+	//private는 맨 밑으로 보내고 싶은데, 선언부 구현부 분리 안하니까 이런 일이 생긴다!
+private:
+	struct Node
+	{
+		friend Iterator;
+
+		DataType Data = DataType();
+
+		Node* Prev = nullptr;
+		Node* Next = nullptr;
+	};
+
 public:
+	class Iterator
+	{
+		friend List;
+
+	public:
+		Iterator()
+		{
+			CurNode = nullptr;
+		}
+
+		Iterator(Node* _Node)
+		{
+			CurNode = _Node;
+		}
+
+		Iterator(const Iterator& _Iter)
+		{
+			CurNode = _Iter.CurNode;
+		}
+
+		DataType& operator*()
+		{
+			return CurNode->Data;
+		}
+
+		Iterator& operator++()
+		{
+			CurNode = CurNode->Next;
+			return this;
+		}
+
+		Iterator operator++(int)
+		{
+			Iterator ReturnIter;
+			ReturnIter.CurNode = CurNode;
+
+			CurNode = CurNode->Next;
+			return ReturnIter;
+		}
+
+		bool operator==(const Iterator& _Other)
+		{
+			return (CurNode == _Other->CurNode);
+		}
+		
+		bool operator!=(const Iterator& _Other)
+		{
+			return (CurNode != _Other->CurNode);
+		}
+
+		Iterator& operator--()
+		{
+			CurNode = CurNode->Prev;
+			return this;
+		}
+
+		Iterator operator--(int)
+		{
+			Iterator ReturnIter;
+			ReturnIter.CurNode = CurNode;
+
+			CurNode = CurNode->Prev;
+			return ReturnIter;
+		}
+
+	private:
+		Node* CurNode = nullptr;
+	};
+
+public:
+	Iterator Begin()
+	{
+		Iterator BeginIter(Head->Next);
+		return BeginIter;
+	}
+
+	Iterator End()
+	{
+		Iterator EndIter(Tail);
+		return EndIter;
+	}
+
+	void Insert(const Iterator& _Iter, const DataType& _Data)
+	{
+		Node* PrevNode = _Iter.CurNode->Prev;
+		Node* NextNode = _Iter.CurNode;
+
+		Node* NewNode = new Node();
+		NewNode->Data = _Data;
+
+		NewNode->Prev = PrevNode;
+		NewNode->Next = NextNode;
+
+		PrevNode->Next = NewNode;
+		NextNode->Prev = NewNode;
+
+		DataSize++;
+	}
+
+	Iterator Erase(const Iterator& _Iter)
+	{
+		Node* PrevNode = _Iter.CurNode->Prev;
+		Node* NextNode = _Iter.CurNode->Next;
+
+		PrevNode->Next = NextNode;
+		NextNode->Prev = PrevNode;
+		
+		delete _Iter.CurNode;
+		DataSize--;
+
+		return Iterator(NextNode);
+	}
+
 	void Push_Back(const DataType& _Data)
 	{
 		Node* NewNode = new Node();
 		NewNode->Data = _Data;
+		
+		Node* LastNode = Tail->Prev;
+		LastNode->Next = NewNode;
+		
+		NewNode->Prev = LastNode;
+		NewNode->Next = Tail;
 
-		if (DataSize == 0)
-		{
-			Head = NewNode;
-			Tail = NewNode;
-		}
-		else
-		{
-			NewNode->Prev = Tail;
-			Tail->Next = NewNode;
-			Tail = NewNode;
-		}
+		Tail->Prev = NewNode;
 
 		DataSize++;
 	}
@@ -60,22 +185,13 @@ public:
 			return;
 		}
 
-		if (DataSize > 1)
-		{
-			Node* TailPrev = Tail->Prev;
-			TailPrev->Next = nullptr;
+		Node* LastNode = Tail->Prev;
 
-			delete Tail;
-			Tail = TailPrev;
-		}
-		else
-		{
-			delete Head;
-
-			Head = nullptr;
-			Tail = nullptr;
-		}
+		LastNode->Prev->Next = Tail;
+		Tail->Prev = LastNode->Prev;
 		
+		delete LastNode;
+
 		DataSize--;
 	}
 
@@ -119,70 +235,26 @@ public:
 		DataSize = _Size;
 	}
 
-//private는 맨 밑으로 보내고 싶은데, 선언부 구현부 분리 안하니까 이런 일이 생긴다!
 private:
-	struct Node
+	void CreateDummyNode()
 	{
-		friend Iterator;
-
-		DataType Data = DataType();
-
-		Node* Prev = nullptr;
-		Node* Next = nullptr;
-	};
-
-public:
-	class Iterator
-	{
-	public:
-		Iterator(const Node* _Node)
+		if (Head != nullptr || Tail != nullptr)
 		{
-			CurNode = _Node;
+			return;
 		}
 
-		Iterator(const Iterator& _Iter)
-		{
-			CurNode = _Iter->CurNode;
-		}
+		Node* HeadNode = new Node();
+		Head = HeadNode;
 
-		DataType& operator*()
-		{
-			return CurNode->Data;
-		}
+		Node* TailNode = new Node();
+		Tail = TailNode;
 
-		Iterator& operator++()
-		{
-			CurNode = CurNode->Next;
-			return this;
-		}
+		HeadNode->Next = Tail;
+		HeadNode->Prev = nullptr;
 
-		Iterator operator++(int)
-		{
-			Iterator ReturnIter;
-			ReturnIter->CurNode = CurNode;
-
-			CurNode = CurNode->Next;
-			return ReturnIter;
-		}
-
-		Iterator& operator--()
-		{
-			CurNode = CurNode->Prev;
-			return this;
-		}
-
-		Iterator operator--(int)
-		{
-			Iterator ReturnIter;
-			ReturnIter->CurNode = CurNode;
-
-			CurNode = CurNode->Prev;
-			return ReturnIter;
-		}
-
-	private:
-		Node* CurNode = nullptr;
-	};
+		TailNode->Prev = Head;
+		TailNode->Next = nullptr;
+	}
 
 private:
 	size_t DataSize = 0;
@@ -191,23 +263,3 @@ private:
 	Node* Tail = nullptr;
 };
 
-#include <memory>
-
-int main()
-{
-	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
-
-	List<int> A(10);
-	
-	List<int> B;
-	for (int i = 0; i < 10; i++)
-	{
-		B.Push_Back(i);
-	}
-
-	List<int> C(10);
-	for (int i = 0; i < 10; i++)
-	{
-		B.Pop_Back();
-	}
-}
