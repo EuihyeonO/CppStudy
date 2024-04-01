@@ -402,5 +402,14 @@
     <ClCompile Include="11404.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="11501.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="피로도.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="2 x n 타일링.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

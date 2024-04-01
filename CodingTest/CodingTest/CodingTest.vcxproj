@@ -265,6 +265,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="1966.cpp" />
+    <ClCompile Include="2 x n 타일링.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2003.cpp">
       <SubType>
       </SubType>
@@ -389,6 +393,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="11501.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Heap, Priority_Queue 구현.cpp" />
     <ClCompile Include="JadenCase 문자열 만들기.cpp" />
     <ClCompile Include="List 구현.cpp" />
@@ -450,6 +458,10 @@
     <ClCompile Include="조이스틱.cpp" />
     <ClCompile Include="체육복.cpp" />
     <ClCompile Include="프로세스.cpp" />
+    <ClCompile Include="피로도.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="피보나치 수.cpp" />
     <ClCompile Include="할인 행사.cpp">
       <SubType>
