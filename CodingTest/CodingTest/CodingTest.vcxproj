@@ -409,6 +409,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="FactoryPattern.cpp" />
     <ClCompile Include="Vector 구현.cpp" />
     <ClCompile Include="게임 맵 최단거리.cpp" />
     <ClCompile Include="괄호 회전하기.cpp" />
