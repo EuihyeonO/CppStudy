@@ -259,6 +259,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="1890.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="1920.cpp" />
     <ClCompile Include="1926.cpp">
       <SubType>
