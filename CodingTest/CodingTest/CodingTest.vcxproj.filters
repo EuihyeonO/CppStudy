@@ -426,5 +426,11 @@
     <ClCompile Include="3896.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="배열.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="풍선 터트리기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -438,6 +438,10 @@
     <ClCompile Include="롤케이크 자르기.cpp" />
     <ClCompile Include="문자열 압축.cpp" />
     <ClCompile Include="방문 길이.cpp" />
+    <ClCompile Include="배열.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="보석 쇼핑.cpp" />
     <ClCompile Include="N개의 최소공배수.cpp" />
     <ClCompile Include="부대 복귀.cpp">
@@ -467,6 +471,10 @@
     <ClCompile Include="최솟값 만들기.cpp" />
     <ClCompile Include="카펫.cpp" />
     <ClCompile Include="파일명 정렬.cpp" />
+    <ClCompile Include="풍선 터트리기.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="프렌즈 4블록.cpp" />
     <ClCompile Include="석유 시추.cpp">
       <SubType>
