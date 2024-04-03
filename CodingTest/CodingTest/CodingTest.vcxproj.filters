@@ -414,7 +414,7 @@
     <ClCompile Include="1890.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="FactoryPattern.cpp">
+    <ClCompile Include="Factory Pattern.cpp">
       <Filter>Design Pattern</Filter>
     </ClCompile>
     <ClCompile Include="16493.cpp">
@@ -431,6 +431,9 @@
     </ClCompile>
     <ClCompile Include="풍선 터트리기.cpp">
       <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTon Pattern.cpp">
+      <Filter>Design Pattern</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
