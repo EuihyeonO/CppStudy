@@ -413,7 +413,7 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="Heap, Priority_Queue 구현.cpp" />
+    <ClCompile Include="Heap 구현.cpp" />
     <ClCompile Include="JadenCase 문자열 만들기.cpp" />
     <ClCompile Include="List 구현.cpp" />
     <ClCompile Include="Map 구현.cpp" />
