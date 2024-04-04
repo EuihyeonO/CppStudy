@@ -345,13 +345,7 @@
     <ClCompile Include="2138.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="2983%28N%29.cpp">
-      <Filter>BaekJoon</Filter>
-    </ClCompile>
     <ClCompile Include="8972.cpp">
-      <Filter>BaekJoon</Filter>
-    </ClCompile>
-    <ClCompile Include="14653%28N%29.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="26091.cpp">
@@ -434,6 +428,12 @@
     </ClCompile>
     <ClCompile Include="SingleTon Pattern.cpp">
       <Filter>Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="11723.cpp">
+      <Filter>BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2487%28N%29.cpp">
+      <Filter>BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
