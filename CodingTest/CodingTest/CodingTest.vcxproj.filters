@@ -441,5 +441,17 @@
     <ClCompile Include="17386.cpp">
       <Filter>BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="숫자 카드 나누기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="줄 서는 방법cpp.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="점 찍기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="섬 연결하기.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
