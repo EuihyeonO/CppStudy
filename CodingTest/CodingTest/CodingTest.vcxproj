@@ -478,7 +478,7 @@
     <ClCompile Include="점 찍기.cpp" />
     <ClCompile Include="점프와 순간이동.cpp" />
     <ClCompile Include="주식 가격.cpp" />
-    <ClCompile Include="줄 서는 방법cpp.cpp" />
+    <ClCompile Include="줄 서는 방법.cpp" />
     <ClCompile Include="짝지어 제거하기.cpp" />
     <ClCompile Include="최댓값과 최솟값.cpp" />
     <ClCompile Include="최솟값 만들기.cpp" />

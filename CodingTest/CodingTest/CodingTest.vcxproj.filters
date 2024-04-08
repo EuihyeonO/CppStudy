@@ -444,7 +444,7 @@
     <ClCompile Include="숫자 카드 나누기.cpp">
       <Filter>Programmers</Filter>
     </ClCompile>
-    <ClCompile Include="줄 서는 방법cpp.cpp">
+    <ClCompile Include="줄 서는 방법.cpp">
       <Filter>Programmers</Filter>
     </ClCompile>
     <ClCompile Include="점 찍기.cpp">
