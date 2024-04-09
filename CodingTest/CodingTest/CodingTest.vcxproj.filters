@@ -1,154 +1,157 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="BaekJoon">
-      <UniqueIdentifier>{2a643bec-f618-49ac-89ec-db4109b57533}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Programmers">
-      <UniqueIdentifier>{0c09c1ab-4e85-4a74-81dc-1bc9e65b0b8b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Custom Container">
       <UniqueIdentifier>{4531c7ca-4070-4ca3-a278-222d547526c0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Design Pattern">
       <UniqueIdentifier>{52d475fd-e32a-4134-a1e3-d558742615b7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CodingTest">
+      <UniqueIdentifier>{e79d7202-f849-43cd-9fba-73d5a844cfb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest\Programmers">
+      <UniqueIdentifier>{0c09c1ab-4e85-4a74-81dc-1bc9e65b0b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodingTest\BaekJoon">
+      <UniqueIdentifier>{2a643bec-f618-49ac-89ec-db4109b57533}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10798.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="11047.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="체육복.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="조이스틱.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="2910.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2178.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2583.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1920.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="17266.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2792.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="11687.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="3020.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="프로세스.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="행렬의 곱셈.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="1463.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="9095.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="11726.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2579.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="11722.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1966.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="14503.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="16236.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="10813.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1010.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="15663.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2056.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1516.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2252.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1722.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1260.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="24444.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="14940.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="10974.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="합승택시요금.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="14923.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="Vector 구현.cpp">
       <Filter>Custom Container</Filter>
     </ClCompile>
     <ClCompile Include="14889.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="석유 시추.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="후보키.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="List 구현.cpp">
       <Filter>Custom Container</Filter>
     </ClCompile>
     <ClCompile Include="17144.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2003.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1806.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="구명보트.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="보석 쇼핑.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="Map 구현.cpp">
       <Filter>Custom Container</Filter>
@@ -157,301 +160,301 @@
       <Filter>Custom Container</Filter>
     </ClCompile>
     <ClCompile Include="3060.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="17143.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2512.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="디펜스게임.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="1300.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="N개의 최소공배수.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="파일명 정렬.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="삼각 달팽이.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="혼자 놀기의 달인.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="1926.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="17265.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1038.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="당구 연습.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="교점에 별 만들기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="문자열 압축.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="124나라의 숫자.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="프렌즈 4블록.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="롤케이크 자르기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="스킬트리.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="주식 가격.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="방문 길이.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="게임 맵 최단거리.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="기능 개발.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="괄호 회전하기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="연속 부분 수열 합의 개수.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="귤 고르기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="예상 대진표.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="점프와 순간이동.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="영어 끝말잇기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="카펫.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="짝지어 제거하기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="피보나치 수.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="다음 큰 숫자.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="숫자의 표현.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="이진 변환 반복하기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="올바른 괄호.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="최솟값 만들기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="JadenCase 문자열 만들기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="최댓값과 최솟값.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="8911.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1141.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="11559.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="21610.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="야근 지수.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="9935.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="할인 행사.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="1327.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="8111.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2505.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2470.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2206.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1655.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1520.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2357.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2623.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="5525.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="5430.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2166.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1715.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="5025.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="3109.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="4485.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2138.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="8972.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="26091.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="14658.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="18222.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="15988.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="17615.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="16472.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="1389.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="20152.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="18188.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="7562.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="16398.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="부대 복귀.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="n^2 배열 자르기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="연속된 부분 수열의 합.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="1158.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="11404.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="11501.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="피로도.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="2 x n 타일링.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="1890.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="Factory Pattern.cpp">
       <Filter>Design Pattern</Filter>
     </ClCompile>
     <ClCompile Include="16493.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2502.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="3896.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="배열.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="풍선 터트리기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="SingleTon Pattern.cpp">
       <Filter>Design Pattern</Filter>
     </ClCompile>
     <ClCompile Include="11723.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2487%28N%29.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="11437.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="17386.cpp">
-      <Filter>BaekJoon</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="숫자 카드 나누기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="줄 서는 방법.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="점 찍기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
     <ClCompile Include="섬 연결하기.cpp">
-      <Filter>Programmers</Filter>
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
