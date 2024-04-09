@@ -468,5 +468,14 @@
     <ClCompile Include="LCA.cpp">
       <Filter>Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="9020.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1152.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1181.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
