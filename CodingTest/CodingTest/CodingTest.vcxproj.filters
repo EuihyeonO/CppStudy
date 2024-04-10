@@ -19,6 +19,9 @@
     <Filter Include="Algorithm">
       <UniqueIdentifier>{72ac060a-e9c5-46d0-813d-c1b47028048f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="C++">
+      <UniqueIdentifier>{e92aff36-5acb-4aee-b01d-4e5463032d9a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10798.cpp">
@@ -476,6 +479,9 @@
     </ClCompile>
     <ClCompile Include="1181.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Placement New.cpp">
+      <Filter>C++</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
