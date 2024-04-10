@@ -395,6 +395,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="5567.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="7562.cpp">
       <SubType>
       </SubType>
@@ -459,6 +463,10 @@
     <ClCompile Include="기능 개발.cpp" />
     <ClCompile Include="다음 큰 숫자.cpp" />
     <ClCompile Include="당구 연습.cpp" />
+    <ClCompile Include="더 맵게.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="디펜스게임.cpp" />
     <ClCompile Include="롤케이크 자르기.cpp" />
     <ClCompile Include="문자열 압축.cpp" />
@@ -475,6 +483,10 @@
     </ClCompile>
     <ClCompile Include="삼각 달팽이.cpp" />
     <ClCompile Include="섬 연결하기.cpp" />
+    <ClCompile Include="숫자 블록.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="숫자 카드 나누기.cpp" />
     <ClCompile Include="숫자의 표현.cpp" />
     <ClCompile Include="스킬트리.cpp" />
@@ -527,6 +539,10 @@
     </ClCompile>
     <ClCompile Include="행렬의 곱셈.cpp" />
     <ClCompile Include="혼자 놀기의 달인.cpp" />
+    <ClCompile Include="혼자서 하는 틱택토.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="후보키.cpp">
       <SubType>
       </SubType>

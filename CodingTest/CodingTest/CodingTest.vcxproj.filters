@@ -483,5 +483,17 @@
     <ClCompile Include="Placement New.cpp">
       <Filter>C++</Filter>
     </ClCompile>
+    <ClCompile Include="5567.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="더 맵게.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="혼자서 하는 틱택토.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자 블록.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
