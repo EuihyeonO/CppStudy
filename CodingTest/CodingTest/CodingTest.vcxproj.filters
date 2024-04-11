@@ -495,5 +495,11 @@
     <ClCompile Include="숫자 블록.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="String_View.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Small String Optimization.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

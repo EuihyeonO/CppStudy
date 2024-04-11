@@ -91,6 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -120,6 +121,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -450,6 +452,8 @@
     </ClCompile>
     <ClCompile Include="Factory Pattern.cpp" />
     <ClCompile Include="SingleTon Pattern.cpp" />
+    <ClCompile Include="Small String Optimization.cpp" />
+    <ClCompile Include="String_View.cpp" />
     <ClCompile Include="Union_Find.cpp" />
     <ClCompile Include="Vector 구현.cpp" />
     <ClCompile Include="게임 맵 최단거리.cpp" />
