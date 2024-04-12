@@ -303,6 +303,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="2042.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2056.cpp">
       <SubType>
       </SubType>
@@ -451,6 +455,7 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="Factory Pattern.cpp" />
+    <ClCompile Include="Segment Tree.cpp" />
     <ClCompile Include="SingleTon Pattern.cpp" />
     <ClCompile Include="Small String Optimization.cpp" />
     <ClCompile Include="String_View.cpp" />

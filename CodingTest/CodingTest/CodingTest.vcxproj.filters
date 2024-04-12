@@ -501,5 +501,11 @@
     <ClCompile Include="Small String Optimization.cpp">
       <Filter>C++</Filter>
     </ClCompile>
+    <ClCompile Include="2042.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment Tree.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
