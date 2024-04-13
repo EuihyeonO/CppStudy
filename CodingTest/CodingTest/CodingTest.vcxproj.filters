@@ -507,5 +507,8 @@
     <ClCompile Include="Segment Tree.cpp">
       <Filter>Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="FenWickTree.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

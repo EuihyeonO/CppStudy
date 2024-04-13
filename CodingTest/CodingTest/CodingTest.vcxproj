@@ -443,6 +443,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="FenWickTree.cpp" />
     <ClCompile Include="Placement New.cpp" />
     <ClCompile Include="Euclidean Algorithm.cpp" />
     <ClCompile Include="Heap 구현.cpp" />
