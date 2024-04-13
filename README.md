@@ -6,5 +6,3 @@
 ##### 4. 자료구조 구현
 ##### 5. 디자인 패턴 
 
-![image](https://github.com/EuihyeonO/CppStudy/assets/109801653/c93b382d-ff04-48d2-96f6-f36397c0aee5)
-
