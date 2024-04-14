@@ -522,5 +522,8 @@
     <ClCompile Include="kruskal.cpp">
       <Filter>Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="Coroutine.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
