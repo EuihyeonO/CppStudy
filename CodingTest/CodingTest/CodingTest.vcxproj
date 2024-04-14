@@ -169,6 +169,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="11657.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="11687.cpp" />
     <ClCompile Include="11722.cpp" />
     <ClCompile Include="11723.cpp">
@@ -190,6 +194,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="1389.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="14500.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -225,6 +233,10 @@
     </ClCompile>
     <ClCompile Include="16236.cpp" />
     <ClCompile Include="16398.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="1647.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -444,6 +456,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="FenWickTree.cpp" />
+    <ClCompile Include="kruskal.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Placement New.cpp" />
     <ClCompile Include="Euclidean Algorithm.cpp" />
     <ClCompile Include="Heap 구현.cpp" />
