@@ -525,5 +525,17 @@
     <ClCompile Include="Coroutine.cpp">
       <Filter>C++</Filter>
     </ClCompile>
+    <ClCompile Include="땅따먹기.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="다리를 지나는 트럭.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="택배 상자.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬 테두리 회전하기.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
