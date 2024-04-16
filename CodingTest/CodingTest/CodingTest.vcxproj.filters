@@ -537,5 +537,11 @@
     <ClCompile Include="행렬 테두리 회전하기.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="16563.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="9663.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
