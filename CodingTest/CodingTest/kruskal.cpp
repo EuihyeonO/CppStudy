@@ -39,11 +39,11 @@
 //
 //	if (_Node1 < _Node2)
 //	{
-//		_Parents[_Node2] = _Node1;
+//		_Parents[Node2Parent] = Node1Parent;
 //	}
 //	else
 //	{
-//		_Parents[_Node1] = _Node2;
+//		_Parents[Node1Parent] = Node2Parent;
 //	}
 //}
 //
