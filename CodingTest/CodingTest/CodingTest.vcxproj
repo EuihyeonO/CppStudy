@@ -554,6 +554,7 @@
     <ClCompile Include="최댓값과 최솟값.cpp" />
     <ClCompile Include="최솟값 만들기.cpp" />
     <ClCompile Include="카펫.cpp" />
+    <ClCompile Include="큰 수 만들기.cpp" />
     <ClCompile Include="택배 상자.cpp">
       <SubType>
       </SubType>
