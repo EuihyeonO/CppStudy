@@ -546,5 +546,11 @@
     <ClCompile Include="큰 수 만들기.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="Variable Argument%28N%29.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Shallow Copy vs Depp Copy.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

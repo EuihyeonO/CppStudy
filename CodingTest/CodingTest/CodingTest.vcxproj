@@ -482,10 +482,12 @@
     </ClCompile>
     <ClCompile Include="Factory Pattern.cpp" />
     <ClCompile Include="Segment Tree.cpp" />
+    <ClCompile Include="Shallow Copy vs Depp Copy.cpp" />
     <ClCompile Include="SingleTon Pattern.cpp" />
     <ClCompile Include="Small String Optimization.cpp" />
     <ClCompile Include="String_View.cpp" />
     <ClCompile Include="Union_Find.cpp" />
+    <ClCompile Include="Variable Argument%28N%29.cpp" />
     <ClCompile Include="Vector 구현.cpp" />
     <ClCompile Include="게임 맵 최단거리.cpp" />
     <ClCompile Include="괄호 회전하기.cpp" />
