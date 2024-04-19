@@ -145,6 +145,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="11047.cpp" />
+    <ClCompile Include="1107.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="11404.cpp">
       <SubType>
       </SubType>
@@ -307,6 +311,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="1966.cpp" />
+    <ClCompile Include="1987.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2 x n 타일링.cpp">
       <SubType>
       </SubType>

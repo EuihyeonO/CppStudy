@@ -552,5 +552,11 @@
     <ClCompile Include="Shallow Copy vs Depp Copy.cpp">
       <Filter>C++</Filter>
     </ClCompile>
+    <ClCompile Include="1107.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1987.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
