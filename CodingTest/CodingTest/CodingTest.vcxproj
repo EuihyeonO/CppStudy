@@ -475,6 +475,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="Component Pattern.cpp" />
     <ClCompile Include="Coroutine.cpp" />
     <ClCompile Include="FenWickTree.cpp" />
     <ClCompile Include="kruskal.cpp">
