@@ -22,6 +22,9 @@
     <Filter Include="C++">
       <UniqueIdentifier>{e92aff36-5acb-4aee-b01d-4e5463032d9a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BackUp">
+      <UniqueIdentifier>{6f899515-e685-4c36-a559-1e6b6f67e27c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10798.cpp">
@@ -563,6 +566,24 @@
     </ClCompile>
     <ClCompile Include="Component Pattern.cpp">
       <Filter>Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="1515%28N%29.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="3758.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="5972.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="15989%28N%29.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="21921.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="22233%28N%29.cpp">
+      <Filter>BackUp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
