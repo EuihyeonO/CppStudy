@@ -80,7 +80,6 @@
 //
 //		std::sort(Teams.begin(), Teams.end(), compare);
 //
-//
 //		for (int j = 0; j < NumOfTeam; j++)
 //		{
 //			if (Teams[j].ID == MyTeamID)

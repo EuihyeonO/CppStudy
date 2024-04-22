@@ -570,20 +570,20 @@
     <ClCompile Include="1515%28N%29.cpp">
       <Filter>BackUp</Filter>
     </ClCompile>
-    <ClCompile Include="3758.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
-    <ClCompile Include="5972.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
     <ClCompile Include="15989%28N%29.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
-    <ClCompile Include="21921.cpp">
       <Filter>BackUp</Filter>
     </ClCompile>
     <ClCompile Include="22233%28N%29.cpp">
       <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="3758.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="5972.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="21921.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
