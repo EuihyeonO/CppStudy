@@ -229,25 +229,12 @@
 //
 //int main()
 //{
-//    std::vector<int> STL;
 //    Vector<int> MyVec;
-//
-//    std::chrono::system_clock::time_point start1 = std::chrono::system_clock::now();
 //   
 //    for (int i = 0; i < 10000000; i++)
 //    {
 //        MyVec.Push_Back(i);
 //    }
-//
-//    std::chrono::milliseconds MyResult = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - start1);
-//
-//    std::chrono::system_clock::time_point start2 = std::chrono::system_clock::now();
-//    for (int i = 0; i < 10000000; i++)
-//    {
-//        STL.push_back(i);
-//    }
-//
-//    std::chrono::milliseconds STLResult = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now() - start2);
 //
 //    int a = 0;
 //}
