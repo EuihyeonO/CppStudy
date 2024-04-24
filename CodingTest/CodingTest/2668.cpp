@@ -9,7 +9,7 @@
 //	std::cout.tie(nullptr);
 //}
 //
-//std::set<std::set<int>> Sets;
+//std::set<int> AnswerSet;
 //
 //void DFS(std::vector<int>& _Nums, std::vector<bool>& _isVisit, int _StartIndex, int _CurIndex)
 //{
@@ -17,17 +17,7 @@
 //
 //	if (_Nums[_CurIndex] == _StartIndex)
 //	{
-//		std::set<int> CurSet;
-//		for (int i = 0; i < _Nums.size(); i++)
-//		{
-//			if (_isVisit[i] == true)
-//			{
-//				CurSet.insert(i);
-//			}
-//		}
-//
-//		Sets.insert(CurSet);
-//		
+//		AnswerSet.insert(_StartIndex);
 //		_isVisit[_CurIndex] = false;
 //		return;
 //	}
@@ -62,36 +52,15 @@
 //		DFS(Nums, isVisit, i, i);
 //	}
 //
-//	std::set<int> Merge;
+//	std::set<int>::iterator StartIter = AnswerSet.begin();
+//	std::set<int>::iterator EndIter = AnswerSet.end();
 //
-//	std::set<std::set<int>>::iterator StartIter = Sets.begin();
-//	std::set<std::set<int>>::iterator EndIter = Sets.end();
+//	std::cout << AnswerSet.size() << "\n";
 //
 //	while (StartIter != EndIter)
 //	{
-//		const std::set<int>& CurSet = *StartIter;
-//
-//		std::set<int>::iterator CurStartIter = CurSet.begin();
-//		std::set<int>::iterator CurEndIter = CurSet.end();
-//
-//		while (CurStartIter != CurEndIter)
-//		{
-//			Merge.insert(*CurStartIter);
-//			CurStartIter++;
-//		}
-//
+//		std::cout << *StartIter << "\n";
 //		StartIter++;
-//	}
-//
-//	std::set<int>::iterator MergeStartIter = Merge.begin();
-//	std::set<int>::iterator MergeEndIter = Merge.end();
-//
-//	std::cout << Merge.size() << "\n";
-//
-//	while (MergeStartIter != MergeEndIter)
-//	{
-//		std::cout << *MergeStartIter << "\n";
-//		MergeStartIter++;
 //	}
 //
 //	return 0;
