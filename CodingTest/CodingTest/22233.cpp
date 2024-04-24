@@ -1,8 +1,8 @@
 //#include <iostream>
 //#include <vector>
-//#include <map>
-//#include <set>
 //#include <string>
+//#include <unordered_set>
+//#include <unordered_map>
 //
 //void Init()
 //{
@@ -14,7 +14,7 @@
 //int main()
 //{
 //	Init();
-//	std::map<std::string, bool> Memos;
+//	std::unordered_map<std::string, bool> Memos;
 //
 //	int NumOfMemo = 0;
 //	int NumOfPost = 0;
@@ -35,7 +35,7 @@
 //		std::string Input = "";
 //		std::cin >> Input;
 //
-//		std::set<std::string> Keywords;
+//		std::unordered_set<std::string> Keywords;
 //
 //		int PrevIndex = 0;
 //		for (int i = 0; i < Input.size(); i++)
@@ -49,8 +49,8 @@
 //
 //		Keywords.insert(Input.substr(PrevIndex, Input.size()));
 //
-//		std::set<std::string>::iterator CurIter = Keywords.begin();
-//		std::set<std::string>::iterator EndIter = Keywords.end();
+//		std::unordered_set<std::string>::iterator CurIter = Keywords.begin();
+//		std::unordered_set<std::string>::iterator EndIter = Keywords.end();
 //
 //		while (CurIter != EndIter)
 //		{
