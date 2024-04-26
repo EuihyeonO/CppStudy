@@ -9,9 +9,19 @@
 //
 //	std::stack<int> MonotonicStack;
 //
-//	for (int i = 0; i < Array.size(); i++)
+//	for (int i = Array.size() - 1; i >= 0; i--)
 //	{
 //		int CurNum = Array[i];
+//
+//		while (MonotonicStack.size() > 0)
+//		{
+//			if (MonotonicStack.top() > CurNum)
+//			{
+//				break;
+//			}
+//
+//			MonotonicStack.pop();
+//		}
 //
 //		if (MonotonicStack.size() == 0)
 //		{
@@ -19,24 +29,7 @@
 //		}
 //		else
 //		{
-//			while (MonotonicStack.size() > 0)
-//			{
-//				if (MonotonicStack.top() > CurNum)
-//				{
-//					break;
-//				}
-//
-//				MonotonicStack.pop();
-//			}
-//
-//			if (MonotonicStack.size() == 0)
-//			{
-//				Answer[i] = -1;
-//			}
-//			else
-//			{
-//				Answer[i] = MonotonicStack.top();
-//			}
+//			Answer[i] = MonotonicStack.top();
 //		}
 //
 //		MonotonicStack.push(CurNum);
