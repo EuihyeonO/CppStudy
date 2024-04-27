@@ -618,5 +618,8 @@
     <ClCompile Include="Monotonic Stack.cpp">
       <Filter>Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="7456.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
