@@ -25,6 +25,9 @@
     <Filter Include="BackUp">
       <UniqueIdentifier>{6f899515-e685-4c36-a559-1e6b6f67e27c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BackUp\Cur">
+      <UniqueIdentifier>{8fa55bf8-dc4f-4852-8623-64e31969f6fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10798.cpp">
@@ -622,6 +625,18 @@
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="5464.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1522.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2304.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="20310.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="20922.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>
