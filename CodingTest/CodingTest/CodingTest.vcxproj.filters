@@ -657,5 +657,26 @@
     <ClCompile Include="3184.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="1303.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1935.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="18429.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="10655.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="1189.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="18428.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="1976%28N%29.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
