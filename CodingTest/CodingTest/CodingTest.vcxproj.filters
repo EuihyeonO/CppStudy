@@ -28,6 +28,9 @@
     <Filter Include="BackUp\Cur">
       <UniqueIdentifier>{8fa55bf8-dc4f-4852-8623-64e31969f6fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CodingTest\BIKO">
+      <UniqueIdentifier>{45785e5e-098a-4e8d-bf8f-93b4886409ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10798.cpp">
@@ -677,6 +680,21 @@
     </ClCompile>
     <ClCompile Include="10655.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="인류의 적 모기 퇴치.cpp">
+      <Filter>CodingTest\BIKO</Filter>
+    </ClCompile>
+    <ClCompile Include="인내의 숲 1단계 - 1.cpp">
+      <Filter>CodingTest\BIKO</Filter>
+    </ClCompile>
+    <ClCompile Include="인내의 숲 1단계 - 2.cpp">
+      <Filter>CodingTest\BIKO</Filter>
+    </ClCompile>
+    <ClCompile Include="인내의 숲 2단계 - 1.cpp">
+      <Filter>CodingTest\BIKO</Filter>
+    </ClCompile>
+    <ClCompile Include="인내의 숲 2단계 - 2.cpp">
+      <Filter>CodingTest\BIKO</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

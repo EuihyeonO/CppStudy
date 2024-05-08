@@ -702,6 +702,26 @@
     <ClCompile Include="예상 대진표.cpp" />
     <ClCompile Include="올바른 괄호.cpp" />
     <ClCompile Include="이진 변환 반복하기.cpp" />
+    <ClCompile Include="인내의 숲 1단계 - 1.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="인내의 숲 1단계 - 2.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="인내의 숲 2단계 - 2.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="인내의 숲 2단계 - 1.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="인류의 적 모기 퇴치.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="점 찍기.cpp" />
     <ClCompile Include="점프와 순간이동.cpp" />
     <ClCompile Include="주식 가격.cpp" />
