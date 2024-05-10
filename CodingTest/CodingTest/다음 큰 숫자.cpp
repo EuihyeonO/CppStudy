@@ -1,48 +1,46 @@
 //#include <string>
 //#include <vector>
+//#include <iostream>
 //
 //using namespace std;
 //
-//int solution(int n)
+//int GetOneCount(int _Num)
 //{
-//    int CopyN = n;
-//    int nCount = 0;
+//    int CurOneCount = 0;
 //
-//    while (CopyN > 0)
+//    while (_Num > 0)
 //    {
-//        if (CopyN % 2 == 1)
+//        if (_Num % 2 == 1)
 //        {
-//            nCount++;
+//            CurOneCount++;
 //        }
 //
-//        CopyN /= 2;
+//        _Num /= 2;
 //    }
 //
-//    n++;
-//    int Count1 = 0;
+//    return CurOneCount;
+//}
+//
+//int solution(int n)
+//{
+//    int CurOneCount = GetOneCount(n);
+//
+//    int PlusCount = 1;
+//    int CurNum = 0;
 //
 //    while (true)
 //    {
-//        CopyN = n;
+//        CurNum = n + PlusCount;
 //
-//        while (CopyN > 0)
-//        {
-//            if (CopyN % 2 == 1)
-//            {
-//                Count1++;
-//            }
+//        int NextOneCount = GetOneCount(CurNum);
 //
-//            CopyN /= 2;
-//        }
-//
-//        if (nCount == Count1)
+//        if (NextOneCount == CurOneCount)
 //        {
 //            break;
 //        }
 //
-//        Count1 = 0;
-//        n++;
+//        PlusCount++;
 //    }
 //
-//    return n;
+//    return CurNum;
 //}

@@ -696,5 +696,14 @@
     <ClCompile Include="인내의 숲 2단계 - 2.cpp">
       <Filter>CodingTest\BIKO</Filter>
     </ClCompile>
+    <ClCompile Include="이중 우선순위 큐.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="이모티콘 할인 행사.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="N진수 게임.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

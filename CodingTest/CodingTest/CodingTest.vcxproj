@@ -615,6 +615,18 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="N진수 게임.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="이모티콘 할인 행사.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="이중 우선순위 큐.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Component Pattern.cpp" />
     <ClCompile Include="Coroutine.cpp" />
     <ClCompile Include="FenWickTree.cpp" />
