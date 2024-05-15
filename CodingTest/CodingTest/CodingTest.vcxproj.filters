@@ -552,7 +552,7 @@
     <ClCompile Include="큰 수 만들기.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
-    <ClCompile Include="Variable Argument%28N%29.cpp">
+    <ClCompile Include="Variable Argument.cpp">
       <Filter>C++</Filter>
     </ClCompile>
     <ClCompile Include="Shallow Copy vs Depp Copy.cpp">
@@ -712,6 +712,24 @@
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="2780.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="14938.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="17086.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="2529.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="10836%28N%29.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="1764.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="3649.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>

@@ -144,6 +144,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="10836%28N%29.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="10974.cpp">
       <SubType>
       </SubType>
@@ -243,6 +247,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="14938.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="14940.cpp">
       <SubType>
       </SubType>
@@ -308,6 +316,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="17086.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="17143.cpp">
       <SubType>
       </SubType>
@@ -338,6 +350,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="17615.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="1764.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -496,6 +512,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="2529.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2579.cpp" />
     <ClCompile Include="2583.cpp" />
     <ClCompile Include="2607%28N%29.cpp">
@@ -534,6 +554,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="3184.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="3649.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -665,7 +689,7 @@
     <ClCompile Include="Small String Optimization.cpp" />
     <ClCompile Include="String_View.cpp" />
     <ClCompile Include="Union_Find.cpp" />
-    <ClCompile Include="Variable Argument%28N%29.cpp" />
+    <ClCompile Include="Variable Argument.cpp" />
     <ClCompile Include="Vector 구현.cpp" />
     <ClCompile Include="게임 맵 최단거리.cpp" />
     <ClCompile Include="괄호 회전하기.cpp" />
