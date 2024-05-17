@@ -739,7 +739,10 @@
       <Filter>BackUp\Cur</Filter>
     </ClCompile>
     <ClCompile Include="20207.cpp">
-      <Filter>BackUp\Cur</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2665.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
