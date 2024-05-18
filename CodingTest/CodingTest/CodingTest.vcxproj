@@ -671,6 +671,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="메이플스토리 새로운 직업 고르기.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="이모티콘 할인 행사.cpp">
       <SubType>
       </SubType>
