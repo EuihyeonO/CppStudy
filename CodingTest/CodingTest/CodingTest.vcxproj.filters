@@ -747,5 +747,11 @@
     <ClCompile Include="메이플스토리 새로운 직업 고르기.cpp">
       <Filter>CodingTest\BIKO</Filter>
     </ClCompile>
+    <ClCompile Include="2866.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="16678.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
