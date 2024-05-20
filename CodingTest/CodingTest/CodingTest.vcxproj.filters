@@ -751,7 +751,10 @@
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="16678.cpp">
-      <Filter>BackUp\Cur</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="뒤집기.cpp">
+      <Filter>CodingTest\BIKO</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

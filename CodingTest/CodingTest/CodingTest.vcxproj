@@ -675,6 +675,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="뒤집기.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="N진수 게임.cpp">
       <SubType>
       </SubType>
