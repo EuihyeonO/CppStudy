@@ -762,5 +762,11 @@
     <ClCompile Include="11907.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="1197.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Pub-Sub Patterncpp.cpp">
+      <Filter>Design Pattern</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
