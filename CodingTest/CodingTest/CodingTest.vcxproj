@@ -688,6 +688,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="Pub-Sub Patterncpp.cpp" />
+    <ClCompile Include="강력한 한방, 필살기.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="뒤집기.cpp">
       <SubType>
       </SubType>
@@ -697,6 +701,14 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="메이플스토리 새로운 직업 고르기.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="아이템 구매.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="우물왕 김배찌.cpp">
       <SubType>
       </SubType>
     </ClCompile>

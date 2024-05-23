@@ -768,5 +768,14 @@
     <ClCompile Include="Pub-Sub Patterncpp.cpp">
       <Filter>Design Pattern</Filter>
     </ClCompile>
+    <ClCompile Include="우물왕 김배찌.cpp">
+      <Filter>CodingTest\BIKO</Filter>
+    </ClCompile>
+    <ClCompile Include="강력한 한방, 필살기.cpp">
+      <Filter>CodingTest\BIKO</Filter>
+    </ClCompile>
+    <ClCompile Include="아이템 구매.cpp">
+      <Filter>CodingTest\BIKO</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
