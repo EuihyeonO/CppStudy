@@ -777,5 +777,8 @@
     <ClCompile Include="아이템 구매.cpp">
       <Filter>CodingTest\BIKO</Filter>
     </ClCompile>
+    <ClCompile Include="16194.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
