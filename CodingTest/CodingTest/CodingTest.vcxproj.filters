@@ -765,7 +765,7 @@
     <ClCompile Include="1197.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="Pub-Sub Patterncpp.cpp">
+    <ClCompile Include="Pub-Sub Pattern.cpp">
       <Filter>Design Pattern</Filter>
     </ClCompile>
     <ClCompile Include="우물왕 김배찌.cpp">

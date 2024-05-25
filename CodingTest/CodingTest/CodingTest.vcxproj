@@ -703,7 +703,7 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="Pub-Sub Patterncpp.cpp" />
+    <ClCompile Include="Pub-Sub Pattern.cpp" />
     <ClCompile Include="강력한 한방, 필살기.cpp">
       <SubType>
       </SubType>
