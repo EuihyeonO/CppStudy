@@ -798,5 +798,11 @@
     <ClCompile Include="2293.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="승리팀 찾기.cpp">
+      <Filter>CodingTest\BIKO</Filter>
+    </ClCompile>
+    <ClCompile Include="회전 격자판.cpp">
+      <Filter>CodingTest\BIKO</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
