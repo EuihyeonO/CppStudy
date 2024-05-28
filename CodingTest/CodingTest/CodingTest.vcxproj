@@ -267,7 +267,7 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="1515%28N%29.cpp">
+    <ClCompile Include="1515.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -423,7 +423,7 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="1966.cpp" />
-    <ClCompile Include="1976%28N%29.cpp">
+    <ClCompile Include="1976.cpp">
       <SubType>
       </SubType>
     </ClCompile>

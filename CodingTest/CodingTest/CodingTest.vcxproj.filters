@@ -570,9 +570,6 @@
     <ClCompile Include="Component Pattern.cpp">
       <Filter>Design Pattern</Filter>
     </ClCompile>
-    <ClCompile Include="1515%28N%29.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
     <ClCompile Include="15989%28N%29.cpp">
       <Filter>BackUp</Filter>
     </ClCompile>
@@ -662,9 +659,6 @@
     </ClCompile>
     <ClCompile Include="1303.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
-    </ClCompile>
-    <ClCompile Include="1976%28N%29.cpp">
-      <Filter>BackUp</Filter>
     </ClCompile>
     <ClCompile Include="1935.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
@@ -805,7 +799,13 @@
       <Filter>CodingTest\BIKO</Filter>
     </ClCompile>
     <ClCompile Include="20168.cpp">
-      <Filter>BackUp\Cur</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1515.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1976.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
