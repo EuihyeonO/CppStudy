@@ -807,5 +807,8 @@
     <ClCompile Include="1976.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="줄임말.cpp">
+      <Filter>CodingTest\BIKO</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
