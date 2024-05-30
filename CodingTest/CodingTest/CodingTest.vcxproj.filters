@@ -810,5 +810,17 @@
     <ClCompile Include="줄임말.cpp">
       <Filter>CodingTest\BIKO</Filter>
     </ClCompile>
+    <ClCompile Include="13335.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="2638.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="12865.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="2250.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
