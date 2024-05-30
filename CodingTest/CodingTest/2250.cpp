@@ -22,19 +22,14 @@
 //};
 //
 ////전방선언
-//int GetLeftSize(std::vector<Node>& _Nodes, int _Index);
 //int GetRightSize(std::vector<Node>& _Nodes, int _Index);
 //
+////구현부
 //int GetLeftSize(std::vector<Node>& _Nodes, int _Index)
 //{
 //	if (_Nodes[_Index].LeftChild == -1)
 //	{
 //		return 0;
-//	}
-//
-//	if (_Nodes[_Index].Position != 0)
-//	{
-//		return _Nodes[_Index].Position - 1;
 //	}
 //
 //	int LeftLeftSize = GetLeftSize(_Nodes, _Nodes[_Index].LeftChild);

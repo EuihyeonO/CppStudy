@@ -820,7 +820,7 @@
       <Filter>BackUp\Cur</Filter>
     </ClCompile>
     <ClCompile Include="2250.cpp">
-      <Filter>BackUp\Cur</Filter>
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
