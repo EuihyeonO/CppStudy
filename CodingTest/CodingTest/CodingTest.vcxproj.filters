@@ -813,14 +813,17 @@
     <ClCompile Include="13335.cpp">
       <Filter>BackUp\Cur</Filter>
     </ClCompile>
-    <ClCompile Include="2638.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
     <ClCompile Include="12865.cpp">
       <Filter>BackUp\Cur</Filter>
     </ClCompile>
     <ClCompile Include="2250.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2638.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="최고의 동접 구간을 찾아라.cpp">
+      <Filter>CodingTest\BIKO</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

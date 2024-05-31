@@ -884,6 +884,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="짝지어 제거하기.cpp" />
+    <ClCompile Include="최고의 동접 구간을 찾아라.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="최댓값과 최솟값.cpp" />
     <ClCompile Include="최솟값 만들기.cpp" />
     <ClCompile Include="카펫.cpp" />
