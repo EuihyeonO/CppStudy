@@ -748,6 +748,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="버튼 게임.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="승리팀 찾기.cpp">
       <SubType>
       </SubType>

@@ -825,5 +825,8 @@
     <ClCompile Include="최고의 동접 구간을 찾아라.cpp">
       <Filter>CodingTest\BIKO</Filter>
     </ClCompile>
+    <ClCompile Include="버튼 게임.cpp">
+      <Filter>CodingTest\BIKO</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
