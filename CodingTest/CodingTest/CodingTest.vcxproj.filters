@@ -828,5 +828,8 @@
     <ClCompile Include="버튼 게임.cpp">
       <Filter>CodingTest\BIKO</Filter>
     </ClCompile>
+    <ClCompile Include="14567.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
