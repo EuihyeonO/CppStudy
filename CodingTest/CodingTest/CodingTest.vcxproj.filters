@@ -834,5 +834,11 @@
     <ClCompile Include="Topology_Sort.cpp">
       <Filter>Algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="110 옮기기.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="스타 수열.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
