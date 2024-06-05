@@ -840,5 +840,14 @@
     <ClCompile Include="스타 수열.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="모두 0으로 만들기.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 긴 팰린드롬.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="최고의 집합.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

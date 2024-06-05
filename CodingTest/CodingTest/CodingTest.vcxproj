@@ -738,6 +738,10 @@
     </ClCompile>
     <ClCompile Include="Pub-Sub Pattern.cpp" />
     <ClCompile Include="Topology_Sort.cpp" />
+    <ClCompile Include="가장 긴 팰린드롬.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="강력한 한방, 필살기.cpp">
       <SubType>
       </SubType>
@@ -751,6 +755,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="메이플스토리 새로운 직업 고르기.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="모두 0으로 만들기.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -896,6 +904,10 @@
     </ClCompile>
     <ClCompile Include="짝지어 제거하기.cpp" />
     <ClCompile Include="최고의 동접 구간을 찾아라.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="최고의 집합.cpp">
       <SubType>
       </SubType>
     </ClCompile>
