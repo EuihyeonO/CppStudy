@@ -849,5 +849,8 @@
     <ClCompile Include="최고의 집합.cpp">
       <Filter>BackUp\Cur</Filter>
     </ClCompile>
+    <ClCompile Include="1043.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
