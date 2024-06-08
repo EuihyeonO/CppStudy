@@ -607,6 +607,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="2661.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2665.cpp">
       <SubType>
       </SubType>

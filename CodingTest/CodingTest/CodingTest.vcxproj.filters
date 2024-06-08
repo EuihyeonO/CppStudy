@@ -810,12 +810,6 @@
     <ClCompile Include="줄임말.cpp">
       <Filter>CodingTest\BIKO</Filter>
     </ClCompile>
-    <ClCompile Include="13335.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
-    <ClCompile Include="12865.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
     <ClCompile Include="2250.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
@@ -840,17 +834,26 @@
     <ClCompile Include="스타 수열.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
-    <ClCompile Include="모두 0으로 만들기.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
-    <ClCompile Include="가장 긴 팰린드롬.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
-    <ClCompile Include="최고의 집합.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
     <ClCompile Include="1043.cpp">
       <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="2661.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 긴 팰린드롬.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="모두 0으로 만들기.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="최고의 집합.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="12865.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="13335.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
