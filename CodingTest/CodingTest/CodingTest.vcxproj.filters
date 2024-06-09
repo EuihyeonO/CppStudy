@@ -855,5 +855,14 @@
     <ClCompile Include="13335.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="Move Semantic.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Perfect forwarding.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Return Value Optimazation.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

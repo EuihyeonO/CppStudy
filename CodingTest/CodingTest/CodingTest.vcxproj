@@ -744,7 +744,9 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="Perfect forwarding.cpp" />
     <ClCompile Include="Pub-Sub Pattern.cpp" />
+    <ClCompile Include="Return Value Optimazation.cpp" />
     <ClCompile Include="Topology_Sort.cpp" />
     <ClCompile Include="가장 긴 팰린드롬.cpp">
       <SubType>
@@ -774,6 +776,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="Move Semantic.cpp" />
     <ClCompile Include="스타 수열.cpp" />
     <ClCompile Include="승리팀 찾기.cpp">
       <SubType>
