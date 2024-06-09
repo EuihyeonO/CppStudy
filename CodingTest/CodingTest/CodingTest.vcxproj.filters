@@ -858,11 +858,11 @@
     <ClCompile Include="Move Semantic.cpp">
       <Filter>C++</Filter>
     </ClCompile>
-    <ClCompile Include="Perfect forwarding.cpp">
-      <Filter>Algorithm</Filter>
-    </ClCompile>
     <ClCompile Include="Return Value Optimazation.cpp">
-      <Filter>Algorithm</Filter>
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Perfect forwarding.cpp">
+      <Filter>C++</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
