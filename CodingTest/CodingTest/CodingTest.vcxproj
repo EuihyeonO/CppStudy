@@ -226,6 +226,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="12886.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="14466%28X%29.cpp">
       <SubType>
       </SubType>
@@ -374,10 +378,6 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="1715.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="12886%28시간초과%29.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -760,6 +760,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="Callable, std_Function.cpp" />
     <ClCompile Include="Perfect forwarding.cpp" />
     <ClCompile Include="Pub-Sub Pattern.cpp" />
     <ClCompile Include="Return Value Optimazation.cpp" />

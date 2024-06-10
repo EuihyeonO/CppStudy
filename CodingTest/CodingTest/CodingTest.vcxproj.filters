@@ -873,11 +873,14 @@
     <ClCompile Include="14466%28X%29.cpp">
       <Filter>BackUp\Cur</Filter>
     </ClCompile>
-    <ClCompile Include="12886%28시간초과%29.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
     <ClCompile Include="17182%2826%25%29.cpp">
       <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="12886.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="Callable, std_Function.cpp">
+      <Filter>C++</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
