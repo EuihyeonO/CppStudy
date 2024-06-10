@@ -834,9 +834,6 @@
     <ClCompile Include="스타 수열.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
-    <ClCompile Include="1043.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
     <ClCompile Include="2661.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
@@ -863,6 +860,24 @@
     </ClCompile>
     <ClCompile Include="Perfect forwarding.cpp">
       <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncPtr.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="17404%28O%29.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="1043.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="14466%28X%29.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="12886%28시간초과%29.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="17182%2826%25%29.cpp">
+      <Filter>BackUp\Cur</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

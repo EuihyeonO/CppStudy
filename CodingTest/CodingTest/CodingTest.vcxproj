@@ -226,6 +226,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="14466%28X%29.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="12904.cpp">
       <SubType>
       </SubType>
@@ -373,6 +377,14 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="12886%28시간초과%29.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="17182%2826%25%29.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="1722.cpp">
       <SubType>
       </SubType>
@@ -383,6 +395,10 @@
     </ClCompile>
     <ClCompile Include="17266.cpp" />
     <ClCompile Include="17386.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="17404%28O%29.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -777,6 +793,7 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="Move Semantic.cpp" />
+    <ClCompile Include="FuncPtr.cpp" />
     <ClCompile Include="스타 수열.cpp" />
     <ClCompile Include="승리팀 찾기.cpp">
       <SubType>
