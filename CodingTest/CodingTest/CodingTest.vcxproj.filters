@@ -864,9 +864,6 @@
     <ClCompile Include="FuncPtr.cpp">
       <Filter>C++</Filter>
     </ClCompile>
-    <ClCompile Include="17404%28O%29.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
     <ClCompile Include="1043.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
@@ -876,11 +873,14 @@
     <ClCompile Include="17182%2826%25%29.cpp">
       <Filter>BackUp\Cur</Filter>
     </ClCompile>
-    <ClCompile Include="12886.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
     <ClCompile Include="Callable, std_Function.cpp">
       <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="12886.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="17404.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

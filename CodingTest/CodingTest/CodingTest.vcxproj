@@ -398,10 +398,7 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="17404%28O%29.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
+    <ClCompile Include="17404.cpp" />
     <ClCompile Include="17609.cpp">
       <SubType>
       </SubType>

@@ -9,6 +9,8 @@
 //	std::cout.tie(nullptr);
 //}
 //
+//#define BIGNUMBER 999999999
+//
 //int main()
 //{
 //	Init();
@@ -25,14 +27,14 @@
 //		}
 //	}
 //
-//	int Answer = 99999999;
+//	int Answer = BIGNUMBER;
 //
-//	std::vector<std::vector<int>> DP(NumOfHouse, std::vector<int>(3, 99999999));
+//	std::vector<std::vector<int>> DP(NumOfHouse, std::vector<int>(3, BIGNUMBER));
 //	for (int i = 0; i < 3; i++)
 //	{
 //		for (int j = 0; j < DP.size(); j++)
 //		{
-//			std::fill(DP[j].begin(), DP[j].end(), 99999999);
+//			std::fill(DP[j].begin(), DP[j].end(), BIGNUMBER);
 //		}
 //
 //		DP[0][0] = Cost[0][0];
