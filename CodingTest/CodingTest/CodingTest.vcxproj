@@ -760,6 +760,7 @@
     <ClCompile Include="Callable, std_Function.cpp" />
     <ClCompile Include="Perfect forwarding.cpp" />
     <ClCompile Include="Pub-Sub Pattern.cpp" />
+    <ClCompile Include="push_back vs emplace_back.cpp" />
     <ClCompile Include="Return Value Optimazation.cpp" />
     <ClCompile Include="Topology_Sort.cpp" />
     <ClCompile Include="가장 긴 팰린드롬.cpp">
