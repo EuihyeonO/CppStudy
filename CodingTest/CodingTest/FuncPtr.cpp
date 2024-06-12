@@ -16,7 +16,13 @@
 //	std::cout << "Func3 호출" << std::endl;
 //	return _A + _B;
 //}
-
+//
+//class Object
+//{
+//public:
+//	void MemFunc() { std::cout << "멤버함수 호출" << std::endl; }
+//};
+//
 //int main()
 //{
 //	void (*FuncPtr)();
@@ -33,6 +39,12 @@
 //
 //	int ReturnValue_2 = Func3Ptr(5, 6);
 //	std::cout << "Func3Ptr Return Value : " << ReturnValue_2 << std::endl;
+//
+//	Object NewObject;
+//	
+//	void (Object:: * Func4Ptr)();
+//	Func4Ptr = &Object::MemFunc;
+//	(NewObject.*Func4Ptr)();
 //
 //	return 0;
 //}

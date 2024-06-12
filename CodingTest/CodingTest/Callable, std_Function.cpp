@@ -1,4 +1,5 @@
 //#include <functional>
+//#include <iostream>
 //
 //class FuncObject
 //{
@@ -18,9 +19,22 @@
 //    }
 //};
 //
-//int Sum(int _A, int _B)
+//class Player
 //{
-//    return _A + _B;
+//public:
+//    int NumEquip = 0;
+//    int NumConsumption = 0;
+//};
+//
+//int SumFunc(const int* _A, const int* _B)
+//{
+//    return *_A + *_B;
+//}
+//
+//void RemoveFunc(int* _Target, int _RemoveValue, int _C)
+//{
+//    std::cout << _RemoveValue << _C;
+//    *_Target -= _RemoveValue;
 //}
 //
 //int main()
@@ -52,7 +66,18 @@
 //            return arg + rx;
 //        }(1); 
 //
+//    Player NewPlayer;
+//    std::function<int()> SumFuncPtr = std::bind(&SumFunc, &NewPlayer.NumEquip, &NewPlayer.NumConsumption);
+//    
+//    std::cout << SumFuncPtr() << std::endl;
+//    
+//    NewPlayer.NumEquip = 3;
+//    NewPlayer.NumConsumption = 5;
+//    
+//    std::cout << SumFuncPtr() << std::endl;
 //
+//    std::function<void(int*, int, int)> RemoveFuncPtr = std::bind(&RemoveFunc, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3);
+//    RemoveFuncPtr(&NewPlayer.NumConsumption, 6, 10);
 //
 //    return 0;
 //}
