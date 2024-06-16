@@ -891,11 +891,17 @@
     <ClCompile Include="18427%28O%29.cpp">
       <Filter>BackUp\Cur</Filter>
     </ClCompile>
-    <ClCompile Include="18430.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
     <ClCompile Include="Smart Pointer.cpp">
       <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="2023%28O%29.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="10597.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="2573.cpp">
+      <Filter>BackUp\Cur</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
