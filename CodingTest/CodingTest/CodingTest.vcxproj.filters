@@ -31,6 +31,9 @@
     <Filter Include="CodingTest\BIKO">
       <UniqueIdentifier>{45785e5e-098a-4e8d-bf8f-93b4886409ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CodingTest\CodeForces">
+      <UniqueIdentifier>{bb615ada-ec93-4600-8363-e8cb57d0b143}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10798.cpp">
@@ -911,6 +914,12 @@
     </ClCompile>
     <ClCompile Include="2174.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Alice And Books.cpp">
+      <Filter>CodingTest\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="New Bakery.cpp">
+      <Filter>CodingTest\CodeForces</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
