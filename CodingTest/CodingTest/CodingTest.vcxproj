@@ -776,6 +776,18 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="Creating Words.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Good Prefix.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Maximum Multiple Sum.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="New Bakery.cpp" />
     <ClCompile Include="Perfect forwarding.cpp" />
     <ClCompile Include="Pub-Sub Pattern.cpp" />

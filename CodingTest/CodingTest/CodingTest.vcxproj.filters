@@ -921,5 +921,14 @@
     <ClCompile Include="New Bakery.cpp">
       <Filter>CodingTest\CodeForces</Filter>
     </ClCompile>
+    <ClCompile Include="Creating Words.cpp">
+      <Filter>CodingTest\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="Maximum Multiple Sum.cpp">
+      <Filter>CodingTest\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="Good Prefix.cpp">
+      <Filter>CodingTest\CodeForces</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
