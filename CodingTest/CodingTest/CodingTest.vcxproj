@@ -796,6 +796,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="Manhattan Circle.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Maximum Multiple Sum.cpp">
       <SubType>
       </SubType>
