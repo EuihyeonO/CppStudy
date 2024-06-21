@@ -462,6 +462,18 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="13164.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="21608.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="5582.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Alice And Books.cpp" />
     <ClCompile Include="1987.cpp">
       <SubType>

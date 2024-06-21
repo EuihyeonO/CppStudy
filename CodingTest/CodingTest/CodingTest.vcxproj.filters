@@ -34,6 +34,9 @@
     <Filter Include="CodingTest\CodeForces">
       <UniqueIdentifier>{bb615ada-ec93-4600-8363-e8cb57d0b143}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BackUp\Cur\NewFilter1">
+      <UniqueIdentifier>{e2781dfa-e567-4484-93d0-2029a1dc7063}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10798.cpp">
@@ -929,6 +932,15 @@
     </ClCompile>
     <ClCompile Include="Good Prefix.cpp">
       <Filter>CodingTest\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="13164.cpp">
+      <Filter>BackUp\Cur\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="5582.cpp">
+      <Filter>BackUp\Cur\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="21608.cpp">
+      <Filter>BackUp\Cur\NewFilter1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
