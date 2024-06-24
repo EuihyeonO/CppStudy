@@ -957,5 +957,8 @@
     <ClCompile Include="6087.cpp">
       <Filter>BackUp\Cur</Filter>
     </ClCompile>
+    <ClCompile Include="16929.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
