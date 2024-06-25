@@ -498,6 +498,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="7579.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Alice And Books.cpp" />
     <ClCompile Include="1987.cpp">
       <SubType>
@@ -830,6 +834,10 @@
     </ClCompile>
     <ClCompile Include="New Bakery.cpp" />
     <ClCompile Include="Perfect forwarding.cpp" />
+    <ClCompile Include="Proxy Pattern.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Pub-Sub Pattern.cpp" />
     <ClCompile Include="push_back vs emplace_back.cpp" />
     <ClCompile Include="Return Value Optimazation.cpp" />
