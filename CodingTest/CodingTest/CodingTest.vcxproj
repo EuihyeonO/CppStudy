@@ -136,6 +136,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="1041.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="1043.cpp">
       <SubType>
       </SubType>
@@ -329,10 +333,6 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="15989%28N%29.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
     <ClCompile Include="16194.cpp">
       <SubType>
       </SubType>
@@ -479,6 +479,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="13164.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="19942.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -842,7 +846,15 @@
     <ClCompile Include="push_back vs emplace_back.cpp" />
     <ClCompile Include="Return Value Optimazation.cpp" />
     <ClCompile Include="Smart Pointer.cpp" />
+    <ClCompile Include="Soccer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Topology_Sort.cpp" />
+    <ClCompile Include="X Axis.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="가장 긴 팰린드롬.cpp">
       <SubType>
       </SubType>

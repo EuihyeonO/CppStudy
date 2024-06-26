@@ -34,6 +34,9 @@
     <Filter Include="CodingTest\CodeForces">
       <UniqueIdentifier>{bb615ada-ec93-4600-8363-e8cb57d0b143}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BackUp\NewFilter1">
+      <UniqueIdentifier>{abf81fdd-3bf5-4a43-9df0-85d5c117baf6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10798.cpp">
@@ -573,9 +576,6 @@
     <ClCompile Include="Component Pattern.cpp">
       <Filter>Design Pattern</Filter>
     </ClCompile>
-    <ClCompile Include="15989%28N%29.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
     <ClCompile Include="3758.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
@@ -965,6 +965,18 @@
     </ClCompile>
     <ClCompile Include="7579.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Soccer.cpp">
+      <Filter>CodingTest\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="X Axis.cpp">
+      <Filter>CodingTest\CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="19942.cpp">
+      <Filter>BackUp\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="1041.cpp">
+      <Filter>BackUp\NewFilter1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
