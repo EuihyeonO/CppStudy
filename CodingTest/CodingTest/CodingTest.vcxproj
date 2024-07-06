@@ -162,6 +162,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="110 옮기기.cpp" />
+    <ClCompile Include="11000.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="11047.cpp" />
     <ClCompile Include="1106.cpp">
       <SubType>
@@ -490,6 +494,14 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="23048.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="27210.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2877.cpp">
       <SubType>
       </SubType>
@@ -503,6 +515,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="7579.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="7983.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -817,6 +833,10 @@
     </ClCompile>
     <ClCompile Include="Callable, std_Function.cpp" />
     <ClCompile Include="1405.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="1953.cpp">
       <SubType>
       </SubType>
     </ClCompile>
