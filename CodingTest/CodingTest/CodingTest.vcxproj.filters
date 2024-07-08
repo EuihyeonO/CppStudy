@@ -990,5 +990,17 @@
     <ClCompile Include="1953.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="27172.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="20040.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="10942 %28O%29.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
+    <ClCompile Include="16724 %28O%29.cpp">
+      <Filter>BackUp\Cur</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

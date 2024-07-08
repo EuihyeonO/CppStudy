@@ -157,6 +157,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="10942 %28O%29.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="10974.cpp">
       <SubType>
       </SubType>
@@ -374,6 +378,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="16724 %28O%29.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="16929.cpp">
       <SubType>
       </SubType>
@@ -490,11 +498,19 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="20040.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="21608.cpp">
       <SubType>
       </SubType>
     </ClCompile>
     <ClCompile Include="23048.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="27172.cpp">
       <SubType>
       </SubType>
     </ClCompile>
