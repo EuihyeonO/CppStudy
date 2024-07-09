@@ -25,14 +25,14 @@
     <Filter Include="BackUp">
       <UniqueIdentifier>{6f899515-e685-4c36-a559-1e6b6f67e27c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="BackUp\Cur">
-      <UniqueIdentifier>{8fa55bf8-dc4f-4852-8623-64e31969f6fc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="CodingTest\BIKO">
       <UniqueIdentifier>{45785e5e-098a-4e8d-bf8f-93b4886409ce}</UniqueIdentifier>
     </Filter>
     <Filter Include="CodingTest\CodeForces">
       <UniqueIdentifier>{bb615ada-ec93-4600-8363-e8cb57d0b143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackUp\X">
+      <UniqueIdentifier>{8fa55bf8-dc4f-4852-8623-64e31969f6fc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -597,15 +597,6 @@
     <ClCompile Include="1927.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="2487%28N%29.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
-    <ClCompile Include="2607%28N%29.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
-    <ClCompile Include="20437%28N%29.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
     <ClCompile Include="2437.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
@@ -867,11 +858,11 @@
     <ClCompile Include="1043.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="14466%28X%29.cpp">
-      <Filter>BackUp\Cur</Filter>
+    <ClCompile Include="14466.cpp">
+      <Filter>BackUp\X</Filter>
     </ClCompile>
-    <ClCompile Include="17182%2826%25%29.cpp">
-      <Filter>BackUp\Cur</Filter>
+    <ClCompile Include="17182.cpp">
+      <Filter>BackUp\X</Filter>
     </ClCompile>
     <ClCompile Include="Callable, std_Function.cpp">
       <Filter>C++</Filter>
@@ -887,15 +878,6 @@
     </ClCompile>
     <ClCompile Include="Smart Pointer.cpp">
       <Filter>C++</Filter>
-    </ClCompile>
-    <ClCompile Include="10597.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
-    <ClCompile Include="2573.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
-    <ClCompile Include="2234.cpp">
-      <Filter>BackUp\Cur</Filter>
     </ClCompile>
     <ClCompile Include="1405.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
@@ -939,9 +921,6 @@
     <ClCompile Include="21608.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="2877.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
     <ClCompile Include="11265.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
@@ -952,7 +931,7 @@
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="6087.cpp">
-      <Filter>BackUp\Cur</Filter>
+      <Filter>BackUp\X</Filter>
     </ClCompile>
     <ClCompile Include="16929.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
@@ -975,14 +954,8 @@
     <ClCompile Include="19942.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="27210.cpp">
-      <Filter>BackUp\Cur</Filter>
-    </ClCompile>
     <ClCompile Include="11000.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
-    </ClCompile>
-    <ClCompile Include="7983.cpp">
-      <Filter>BackUp</Filter>
     </ClCompile>
     <ClCompile Include="23048.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
@@ -996,11 +969,38 @@
     <ClCompile Include="20040.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="10942 %28O%29.cpp">
-      <Filter>BackUp\Cur</Filter>
+    <ClCompile Include="10942.cpp">
+      <Filter>BackUp\X</Filter>
     </ClCompile>
-    <ClCompile Include="16724 %28O%29.cpp">
-      <Filter>BackUp\Cur</Filter>
+    <ClCompile Include="16724.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="2234.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2573.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2877.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="10597.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="27210.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="7983.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="20437.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="2487.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="2607.cpp">
+      <Filter>BackUp\X</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

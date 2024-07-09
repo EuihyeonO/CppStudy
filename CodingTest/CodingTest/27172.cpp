@@ -31,21 +31,12 @@
 //	{
 //		int CurNum = PlayerNums[i];
 //
-//		for (int i = 1; i <= std::sqrt(CurNum); i++)
+//		for (int i = CurNum * 2; i < 1000001; i += CurNum)
 //		{
-//			if (CurNum % i == 0)
+//			if (isExist[i] == true)
 //			{
-//				if (isExist[i] == true)
-//				{
-//					Score[i]++;
-//					Score[CurNum]--;
-//				}
-//
-//				if (i != (CurNum / i) && isExist[CurNum / i] == true)
-//				{
-//					Score[CurNum / i]++;
-//					Score[CurNum]--;
-//				}
+//				Score[CurNum]++;
+//				Score[i]--;
 //			}
 //		}
 //	}
