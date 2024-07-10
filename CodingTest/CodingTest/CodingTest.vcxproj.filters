@@ -1002,5 +1002,17 @@
     <ClCompile Include="2607.cpp">
       <Filter>BackUp\X</Filter>
     </ClCompile>
+    <ClCompile Include="14267.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="1167.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="1238.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="2467.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

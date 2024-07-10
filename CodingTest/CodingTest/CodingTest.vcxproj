@@ -211,6 +211,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="1167.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="11687.cpp" />
     <ClCompile Include="11722.cpp" />
     <ClCompile Include="11723.cpp">
@@ -234,6 +238,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="1238.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="124나라의 숫자.cpp" />
     <ClCompile Include="1253.cpp">
       <SubType>
@@ -248,6 +256,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="12886.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="14267.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -507,6 +519,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="23048.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="2467.cpp">
       <SubType>
       </SubType>
     </ClCompile>
