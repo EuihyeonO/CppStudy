@@ -1,6 +1,7 @@
 //#include <iostream>
 //#include <vector>
 //#include <queue>
+//#include <climits>
 //
 //void Init()
 //{
@@ -9,10 +10,8 @@
 //	std::cout.tie(nullptr);
 //}
 //
-//void Dijk(std::vector<int>& _Cost, std::vector<std::vector<std::pair<int, int>>>& _Link, int _StartNode, int _TargetNode)
+//void Dijk(std::vector<int>& _Cost, std::vector<std::vector<std::pair<int, int>>>& _Link, int _StartNode)
 //{
-//	std::fill(_Cost.begin(), _Cost.end(), 999999999);
-//
 //	std::priority_queue<std::pair<int, int>, std::vector<std::pair<int, int>>, std::greater<std::pair<int, int>>> Queue;
 //	
 //	Queue.push({ 0, _StartNode });
@@ -56,6 +55,7 @@
 //	std::cin >> NumMan >> NumRoad >> PartyNode;
 //	
 //	std::vector<std::vector<std::pair<int, int>>> Link(NumMan);
+//	std::vector<std::vector<std::pair<int, int>>> ReverseLink(NumMan);
 //
 //	for (int i = 0; i < NumRoad; i++)
 //	{
@@ -66,28 +66,27 @@
 //		std::cin >> Start >> End >> Cost;
 //
 //		Link[Start - 1].push_back({ Cost, End - 1});
+//		ReverseLink[End - 1].push_back({ Cost, Start - 1 });
 //	}
 //
-//	std::vector<int> Costs(NumMan);
-//	int Answer = 0;
+//	std::vector<int> Costs(NumMan, INT_MAX);
+//	std::vector<int> ReverseCosts(NumMan, INT_MAX);
+//
+//	Dijk(Costs, Link, PartyNode - 1);
+//	Dijk(ReverseCosts, ReverseLink, PartyNode - 1);
+//
+//	int MaxCost = -1;
+//
+//	Costs[PartyNode - 1] = 0;
+//	ReverseCosts[PartyNode - 1] = 0;
 //
 //	for (int i = 0; i < NumMan; i++)
 //	{
-//		if (i == PartyNode - 1)
-//		{
-//			continue;
-//		}
-//
-//		Dijk(Costs, Link, i, PartyNode - 1);
-//		int GoCost = Costs[PartyNode - 1];
-//
-//		Dijk(Costs, Link, PartyNode - 1, i);
-//		int ComeCost = Costs[i];
-//
-//		Answer = std::max(Answer, GoCost + ComeCost);
+//		int CurCost = Costs[i] + ReverseCosts[i];
+//		MaxCost = std::max(MaxCost, CurCost);
 //	}
 //
-//	std::cout << Answer;
-//	
+//	std::cout << MaxCost;
+//
 //	return 0;
 //}
