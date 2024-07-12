@@ -333,9 +333,6 @@
     <ClCompile Include="1655.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="1520.cpp">
-      <Filter>CodingTest\BaekJoon</Filter>
-    </ClCompile>
     <ClCompile Include="2357.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
@@ -1012,6 +1009,12 @@
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="14267.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1520.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2096.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>

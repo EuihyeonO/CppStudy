@@ -10,13 +10,46 @@
 //	std::cout.tie(nullptr);
 //}
 //
-//struct Node
-//{
-//	int X = 0;
-//	int Y = 0;
+//std::vector<int> DirX = { -1, 0, 1, 0 };
+//std::vector<int> DirY = { 0, -1, 0, 1 };
 //
-//	std::vector<std::pair<int, int>> Visited;
-//};
+//std::vector<std::vector<int>> Map;
+//std::vector<std::vector<int>> DP;
+//
+//int Recursive(int _CurX, int _CurY)
+//{
+//	if (_CurX == Map[0].size() - 1 && _CurY == Map.size() - 1)
+//	{
+//		return 1;
+//	}
+//
+//	if (DP[_CurY][_CurX] != -1)
+//	{
+//		return DP[_CurY][_CurX];
+//	}
+//
+//	DP[_CurY][_CurX] = 0;
+//
+//	for (int i = 0; i < 4; i++)
+//	{
+//		int NextX = _CurX + DirX[i];
+//		int NextY = _CurY + DirY[i];
+//
+//		if (NextX < 0 || NextY < 0 || NextX >= Map[0].size() || NextY >= Map.size())
+//		{
+//			continue;
+//		}
+//
+//		if (Map[NextY][NextX] >= Map[_CurY][_CurX])
+//		{
+//			continue;
+//		}
+//
+//		DP[_CurY][_CurX] += Recursive(NextX, NextY);
+//	}
+//
+//	return DP[_CurY][_CurX];
+//}
 //
 //int main()
 //{
@@ -28,8 +61,8 @@
 //	std::cin >> Height;
 //	std::cin >> Width;
 //
-//	std::vector<std::vector<int>> Map(Height, std::vector<int>(Width));
-//	std::vector<std::vector<int>> Dp(Height, std::vector<int>(Width));
+//	Map.resize(Height, std::vector<int>(Width, 0));
+//	DP.resize(Height, std::vector<int>(Width, -1));
 //
 //	for (int i = 0; i < Height; i++)
 //	{
@@ -39,44 +72,9 @@
 //		}
 //	}
 //
-//	std::vector<int> Wx = { -1, 0, 1, 0 };
-//	std::vector<int> Wy = { 0, -1, 0, 1 };
+//	Recursive(0, 0);
 //
-//	std::stack<Node> DFS;
-//	DFS.push({ 0, 0 });
-//
-//	while (DFS.size() > 0)
-//	{
-//		Node CurNode = DFS.top();
-//		int CurX = CurNode.X;
-//		int CurY = CurNode.Y;
-//
-//		for (int i = 0; i < 4; i++)
-//		{
-//			int NextX = CurX + Wx[i];
-//			int NextY = CurY + Wy[i];
-//
-//			if (NextX < 0 || NextY < 0 || NextX >= Width || NextY >= Height)
-//			{
-//				continue;
-//			}
-//
-//			if (Map[NextY][NextX] >= Map[CurY][CurX])
-//			{
-//				continue;
-//			}
-//
-//			std::vector<std::pair<int, int>>::iterator FindIter = std::find(CurNode.Visited.begin(), CurNode.Visited.end(), std::pair{NextX, NextY});
-//			
-//			if (FindIter == CurNode.Visited.end())
-//			{
-//				std::vector<std::pair<int, int>>& Vec = CurNode.Visited;
-//				Vec.push_back({ NextX, NextY });
-//
-//				DFS.push({NextX, NextY});
-//			}
-//		}
-//	}
+//	std::cout << DP[0][0];
 //
 //	return 0;
 //}
