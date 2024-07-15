@@ -1017,5 +1017,23 @@
     <ClCompile Include="2096.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="2110.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="7576.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="9019.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="9466.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="11286.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="21736.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
