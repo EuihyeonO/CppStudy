@@ -25,21 +25,16 @@
 //
 //	std::cin >> Width >> Height;
 //
-//	std::set<std::pair<int, int>> UnGrown;
+//	std::vector<std::vector<int>> Map(Height, std::vector<int>(Width, 0));
 //	std::queue<Data> Grown;
 //
 //	for (int i = 0; i < Height; i++)
 //	{
 //		for (int j = 0; j < Width; j++)
 //		{
-//			int Input = 0;
-//			std::cin >> Input;
+//			std::cin >> Map[i][j];
 //
-//			if (Input == 0)
-//			{
-//				UnGrown.insert({ i, j });
-//			}
-//			else if (Input == 1)
+//			if (Map[i][j] == 1)
 //			{
 //				Grown.push({ { i, j }, 0 });
 //			}
@@ -53,32 +48,41 @@
 //
 //	while (Grown.size() > 0)
 //	{
-//		std::pair<int, int> CurTomato = Grown.front().Pos;
-//		int Days = Grown.front().Days;
+//		Data CurData = Grown.front();
 //		Grown.pop();
 //
-//		Answer = std::max(Answer, Days);
+//		Answer = std::max(Answer, CurData.Days);
 //
 //		for (int i = 0; i < 4; i++)
 //		{
-//			std::pair<int, int> NearTomato = { CurTomato.first + DirY[i], CurTomato.second + DirX[i] };
+//			std::pair<int, int> NearTomato = { CurData.Pos.first + DirY[i], CurData.Pos.second + DirX[i]};
 //
-//			if (UnGrown.find(NearTomato) != UnGrown.end())
+//			if (NearTomato.first < 0 || NearTomato.second < 0 || NearTomato.first >= Height || NearTomato.second >= Width)
 //			{
-//				UnGrown.erase(NearTomato);
-//				Grown.push({ NearTomato, Days + 1});
+//				continue;
+//			}
+//
+//			if (Map[NearTomato.first][NearTomato.second] == 0)
+//			{
+//				Map[NearTomato.first][NearTomato.second] = 1;
+//				Grown.push({ NearTomato, CurData.Days + 1});
 //			}
 //		}
 //	}
 //
-//	if (UnGrown.size() > 0)
+//	for (int i = 0; i < Height; i++)
 //	{
-//		std::cout << -1;
+//		for(int j = 0; j < Width; j++)
+//		{
+//			if (Map[i][j] == 0)
+//			{
+//				std::cout << -1;
+//				return 0;
+//			}
+//		}
 //	}
-//	else
-//	{
-//		std::cout << Answer;
-//	}
+//
+//	std::cout << Answer;
 //
 //	return 0;
 //}

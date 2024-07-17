@@ -34,6 +34,9 @@
     <Filter Include="BackUp\X">
       <UniqueIdentifier>{8fa55bf8-dc4f-4852-8623-64e31969f6fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BackUp\O">
+      <UniqueIdentifier>{df72ebc5-1591-4c4e-8b1c-93ac3e6bfe92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10798.cpp">
@@ -1020,20 +1023,35 @@
     <ClCompile Include="2110.cpp">
       <Filter>BackUp</Filter>
     </ClCompile>
-    <ClCompile Include="7576.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
     <ClCompile Include="9019.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
-    <ClCompile Include="9466.cpp">
       <Filter>BackUp</Filter>
     </ClCompile>
     <ClCompile Include="11286.cpp">
       <Filter>BackUp</Filter>
     </ClCompile>
+    <ClCompile Include="7576.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
     <ClCompile Include="21736.cpp">
       <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="9466.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="14890.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1339%28O%29.cpp">
+      <Filter>BackUp\O</Filter>
+    </ClCompile>
+    <ClCompile Include="2004%28O%29.cpp">
+      <Filter>BackUp\O</Filter>
+    </ClCompile>
+    <ClCompile Include="2225%28O%29.cpp">
+      <Filter>BackUp\O</Filter>
+    </ClCompile>
+    <ClCompile Include="12851 %28O%29.cpp">
+      <Filter>BackUp\O</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
