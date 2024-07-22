@@ -1041,16 +1041,27 @@
     <ClCompile Include="14890.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="1339%28O%29.cpp">
+    <ClCompile Include="1339.cpp">
       <Filter>BackUp\O</Filter>
     </ClCompile>
-    <ClCompile Include="2004%28O%29.cpp">
+    <ClCompile Include="2004.cpp">
       <Filter>BackUp\O</Filter>
     </ClCompile>
-    <ClCompile Include="2225%28O%29.cpp">
+    <ClCompile Include="2225.cpp">
       <Filter>BackUp\O</Filter>
     </ClCompile>
-    <ClCompile Include="12851 %28O%29.cpp">
+    <ClCompile Include="12851.cpp">
+      <Filter>BackUp\O</Filter>
+    </ClCompile>
+    <ClCompile Include="1916.cpp" />
+    <ClCompile Include="10830.cpp" />
+    <ClCompile Include="2146.cpp">
+      <Filter>BackUp\O</Filter>
+    </ClCompile>
+    <ClCompile Include="1991.cpp">
+      <Filter>BackUp\O</Filter>
+    </ClCompile>
+    <ClCompile Include="4948.cpp">
       <Filter>BackUp\O</Filter>
     </ClCompile>
   </ItemGroup>
