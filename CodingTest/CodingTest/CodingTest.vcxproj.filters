@@ -1080,5 +1080,20 @@
     <ClCompile Include="12851.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="11403.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="14891.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1644.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1074.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
+    <ClCompile Include="1202.cpp">
+      <Filter>BackUp</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
