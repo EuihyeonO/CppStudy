@@ -1096,5 +1096,10 @@
       <Filter>BackUp</Filter>
     </ClCompile>
     <ClCompile Include="11660.cpp" />
+    <ClCompile Include="2133.cpp" />
+    <ClCompile Include="7569.cpp" />
+    <ClCompile Include="3190.cpp" />
+    <ClCompile Include="10986.cpp" />
+    <ClCompile Include="9465.cpp" />
   </ItemGroup>
 </Project>

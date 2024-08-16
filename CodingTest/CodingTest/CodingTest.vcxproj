@@ -173,6 +173,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="10986.cpp" />
     <ClCompile Include="110 옮기기.cpp" />
     <ClCompile Include="11000.cpp">
       <SubType>
@@ -638,6 +639,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="7569.cpp" />
     <ClCompile Include="7576.cpp">
       <SubType>
       </SubType>
@@ -654,6 +656,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="9465.cpp" />
     <ClCompile Include="9466.cpp">
       <SubType>
       </SubType>
@@ -1007,6 +1010,8 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="Topology_Sort.cpp" />
+    <ClCompile Include="2133.cpp" />
+    <ClCompile Include="3190.cpp" />
     <ClCompile Include="X Axis.cpp">
       <SubType>
       </SubType>
