@@ -1095,11 +1095,27 @@
     <ClCompile Include="1202.cpp">
       <Filter>BackUp</Filter>
     </ClCompile>
-    <ClCompile Include="11660.cpp" />
-    <ClCompile Include="2133.cpp" />
-    <ClCompile Include="7569.cpp" />
-    <ClCompile Include="3190.cpp" />
-    <ClCompile Include="10986.cpp" />
-    <ClCompile Include="9465.cpp" />
+    <ClCompile Include="11660.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2133.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="3190.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="7569.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="9465.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="10986.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="10282.cpp" />
+    <ClCompile Include="13913.cpp" />
+    <ClCompile Include="1082.cpp" />
+    <ClCompile Include="1025.cpp" />
   </ItemGroup>
 </Project>

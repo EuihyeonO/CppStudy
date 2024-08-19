@@ -132,6 +132,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1010.cpp" />
+    <ClCompile Include="1025.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="10282.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="1038.cpp">
       <SubType>
       </SubType>
@@ -154,6 +162,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="10798.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="1082.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -289,6 +301,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="1339.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="13913.cpp">
       <SubType>
       </SubType>
     </ClCompile>
