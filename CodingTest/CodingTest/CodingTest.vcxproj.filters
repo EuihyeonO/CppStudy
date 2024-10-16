@@ -1117,5 +1117,8 @@
     <ClCompile Include="13913.cpp" />
     <ClCompile Include="1082.cpp" />
     <ClCompile Include="1025.cpp" />
+    <ClCompile Include="25498.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
