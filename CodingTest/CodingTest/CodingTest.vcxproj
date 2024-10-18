@@ -1016,6 +1016,7 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="New Bakery.cpp" />
+    <ClCompile Include="N_Queen.cpp" />
     <ClCompile Include="Perfect forwarding.cpp" />
     <ClCompile Include="Proxy Pattern.cpp">
       <SubType>
@@ -1044,6 +1045,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="과제 진행하기.cpp" />
     <ClCompile Include="뒤집기.cpp">
       <SubType>
       </SubType>
@@ -1073,6 +1075,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="시소짝궁.cpp" />
     <ClCompile Include="아이템 구매.cpp">
       <SubType>
       </SubType>
@@ -1226,6 +1229,7 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="파일명 정렬.cpp" />
+    <ClCompile Include="퍼즐 게임 챌린지.cpp" />
     <ClCompile Include="풍선 터트리기.cpp">
       <SubType>
       </SubType>

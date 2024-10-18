@@ -1,108 +1,97 @@
-//#include <iostream>
-//#include <vector>
-//#include <queue>
-//#include <climits>
-//#include <algorithm>
 //#include <string>
+//#include <set>
+//#include <iostream>
 //
-//void Init()
+//using namespace std;
+//
+//bool isAlphabet(char _Character)
 //{
-//	std::ios::sync_with_stdio(false);
-//	std::cin.tie(nullptr);
-//	std::cout.tie(nullptr);
+//    return (_Character >= 'a' && _Character <= 'z') || (_Character >= 'A' && _Character <= 'Z');
 //}
 //
-//int main()
+//int solution(string str1, string str2)
 //{
-//	Init();
+//    std::multiset<std::string> Left;
+//    std::multiset<std::string> Right;
+//    std::multiset<std::string> Add;
+//    std::multiset<std::string> Common;
 //
-//	int Start = 0;
-//	int Target = 0;
-//	
-//	std::cin >> Start >> Target;
+//    for (int i = 0; i < str1.size() - 1; i++)
+//    {
+//        std::string CurStr = str1.substr(i, 2);
 //
-//	if (Target < Start)
-//	{
-//		std::cout << Start - Target << "\n";
+//        if (isAlphabet(CurStr[0]) == false || isAlphabet(CurStr[1]) == false)
+//        {
+//            continue;
+//        }
 //
-//		for (int i = Start; i >= Target; i--)
-//		{
-//			std::cout << i << " ";
-//		}
+//        if (CurStr[0] >= 'a' && CurStr[0] <= 'z')
+//        {
+//            CurStr[0] += 'A' - 'a';
+//        }
 //
-//		return 0;
-//	}
+//        if (CurStr[1] >= 'a' && CurStr[1] <= 'z')
+//        {
+//            CurStr[1] += 'A' - 'a';
+//        }
 //
-//	std::vector<int> DP(100001, INT_MAX / 2);
-//	std::queue<std::pair<int, std::string>> BFS;
+//        Left.insert(CurStr);
+//    }
 //
-//	DP[Start] = 0;
-//	BFS.push({ Start, std::to_string(Start) + "X" });
+//    for (int i = 0; i < str2.size() - 1; i++)
+//    {
+//        std::string CurStr = str2.substr(i, 2);
 //
-//	std::string AnswerPath = "";
-//	int Answer = INT_MAX;
+//        if (isAlphabet(CurStr[0]) == false || isAlphabet(CurStr[1]) == false)
+//        {
+//            continue;
+//        }
 //
-//	while (BFS.size() > 0)
-//	{
-//		std::pair<int, std::string> CurPair = BFS.front();
-//		int CurPos = CurPair.first;
+//        if (CurStr[0] >= 'a' && CurStr[0] <= 'z')
+//        {
+//            CurStr[0] += 'A' - 'a';
+//        }
 //
-//		BFS.pop();
+//        if (CurStr[1] >= 'a' && CurStr[1] <= 'z')
+//        {
+//            CurStr[1] += 'A' - 'a';
+//        }
 //
-//		if (CurPos == Target)
-//		{
-//			Answer = std::min(Answer, DP[Target]);
-//			AnswerPath = CurPair.second;
-//			break;
-//		}
-//		
-//		if (CurPos - 1 >= 0 && DP[CurPos - 1] == DP[CurPos] + 1)
-//		{
-//			std::string Path = CurPair.second;
+//        Right.insert(CurStr);
+//    }
 //
-//			Path += std::to_string(CurPos - 1);
-//			Path += "X";
+//    for (const std::string& _Str : Left)
+//    {
+//        std::multiset<std::string>::iterator FindIter = Right.find(_Str);
 //
-//			DP[CurPos - 1] = DP[CurPos] + 1;
-//			BFS.push({ CurPos - 1, Path });
-//		}
+//        if (FindIter != Right.end())
+//        {
+//            Common.insert(*FindIter);
+//            Right.erase(FindIter);
+//        }
+//    }
 //
-//		if (CurPos + 1 <= 100000 && DP[CurPos + 1] > DP[CurPos] + 1)
-//		{
-//			std::string Path = CurPair.second;
+//    for (const std::string& _Str : Left)
+//    {
+//        Add.insert(_Str);
+//    }
 //
-//			Path += std::to_string(CurPos + 1);
-//			Path += "X";
+//    for (const std::string& _Str : Right)
+//    {
+//        Add.insert(_Str);
+//    }
 //
-//			DP[CurPos + 1] = DP[CurPos] + 1;
-//			BFS.push({ CurPos + 1, Path });
-//		}
+//    int Answer = 0;
 //
-//		if (CurPos * 2 <= 100000 && DP[CurPos * 2] > DP[CurPos] + 1)
-//		{
-//			std::string Path = CurPair.second;
+//    if (Add.size() == 0)
+//    {
+//        Answer = 65536;
+//    }
+//    else
+//    {
+//        Answer = ((float)Common.size() / Add.size()) * 65536;
+//    }
 //
-//			Path += std::to_string(CurPos * 2);
-//			Path += "X";
+//    return Answer;
 //
-//			DP[CurPos * 2] = DP[CurPos] + 1;
-//			BFS.push({ CurPos * 2, Path });
-//		}
-//	}
-//
-//	std::cout << DP[Target] << "\n";
-//
-//	for (int i = 0; i < AnswerPath.size(); i++)
-//	{
-//		if (AnswerPath[i] == 'X')
-//		{
-//			std::cout << " ";
-//		}
-//		else
-//		{
-//			std::cout << AnswerPath[i];
-//		}
-//	}
-//	
-//	return 0;
 //}
