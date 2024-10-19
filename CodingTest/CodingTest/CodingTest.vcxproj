@@ -1038,6 +1038,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="[1차] 캐시.cpp" />
     <ClCompile Include="가장 긴 팰린드롬.cpp">
       <SubType>
       </SubType>
@@ -1201,6 +1202,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="전화번호 목록.cpp" />
     <ClCompile Include="점 찍기.cpp" />
     <ClCompile Include="점프와 순간이동.cpp" />
     <ClCompile Include="주식 가격.cpp" />
