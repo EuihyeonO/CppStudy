@@ -647,6 +647,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="3 x n 타일링.cpp" />
     <ClCompile Include="4948.cpp">
       <SubType>
       </SubType>
@@ -1041,6 +1042,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="가장 큰 정사각형 찾기.cpp" />
     <ClCompile Include="강력한 한방, 필살기.cpp">
       <SubType>
       </SubType>
@@ -1219,6 +1221,7 @@
     <ClCompile Include="최댓값과 최솟값.cpp" />
     <ClCompile Include="최솟값 만들기.cpp" />
     <ClCompile Include="카펫.cpp" />
+    <ClCompile Include="컬러링북.cpp" />
     <ClCompile Include="큰 수 만들기.cpp" />
     <ClCompile Include="택배 상자.cpp">
       <SubType>
