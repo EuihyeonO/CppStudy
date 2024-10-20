@@ -1151,5 +1151,11 @@
     <ClCompile Include="전력망을 둘로 나누기.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="오픈 채팅방.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="테이블 해시 함수.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

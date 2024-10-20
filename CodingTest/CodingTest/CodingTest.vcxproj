@@ -1085,6 +1085,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="오픈 채팅방.cpp" />
     <ClCompile Include="우물왕 김배찌.cpp">
       <SubType>
       </SubType>
@@ -1236,6 +1237,7 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="테이블 해시 함수.cpp" />
     <ClCompile Include="파일명 정렬.cpp" />
     <ClCompile Include="퍼즐 게임 챌린지.cpp" />
     <ClCompile Include="풍선 터트리기.cpp">
