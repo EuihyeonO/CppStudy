@@ -1073,6 +1073,7 @@
     <ClCompile Include="FuncPtr.cpp" />
     <ClCompile Include="11660.cpp" />
     <ClCompile Include="메뉴 리뉴얼.cpp" />
+    <ClCompile Include="순위 검색.cpp" />
     <ClCompile Include="스타 수열.cpp" />
     <ClCompile Include="승리팀 찾기.cpp">
       <SubType>

@@ -1142,5 +1142,8 @@
     <ClCompile Include="전화번호 목록.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="순위 검색.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
