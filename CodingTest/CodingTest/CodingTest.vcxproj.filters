@@ -1145,5 +1145,11 @@
     <ClCompile Include="순위 검색.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="리코쳇 로봇.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="전력망을 둘로 나누기.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
