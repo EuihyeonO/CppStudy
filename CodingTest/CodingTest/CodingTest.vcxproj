@@ -1000,6 +1000,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="2632.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Creating Words.cpp">
       <SubType>
       </SubType>
@@ -1049,6 +1053,7 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="과제 진행하기.cpp" />
+    <ClCompile Include="두 큐 합 같게 만들기.cpp" />
     <ClCompile Include="뒤집기.cpp">
       <SubType>
       </SubType>
