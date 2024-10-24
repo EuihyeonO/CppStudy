@@ -208,6 +208,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="11333.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="11403.cpp">
       <SubType>
       </SubType>
@@ -275,6 +279,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="1234.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="1238.cpp">
       <SubType>
       </SubType>
@@ -293,6 +301,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="12865.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="12869.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -444,6 +456,10 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="16563.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="16637.cpp">
       <SubType>
       </SubType>
     </ClCompile>
@@ -623,6 +639,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="24394.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2448.cpp">
       <SubType>
       </SubType>
@@ -656,7 +676,15 @@
       </SubType>
     </ClCompile>
     <ClCompile Include="3 x n 타일링.cpp" />
+    <ClCompile Include="3673.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="4948.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="5550.cpp">
       <SubType>
       </SubType>
     </ClCompile>

@@ -1020,20 +1020,8 @@
     <ClCompile Include="2096.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="2110.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
-    <ClCompile Include="9019.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
-    <ClCompile Include="11286.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
     <ClCompile Include="7576.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
-    </ClCompile>
-    <ClCompile Include="21736.cpp">
-      <Filter>BackUp</Filter>
     </ClCompile>
     <ClCompile Include="9466.cpp">
       <Filter>BackUp\X</Filter>
@@ -1055,9 +1043,6 @@
     </ClCompile>
     <ClCompile Include="2448.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
-    </ClCompile>
-    <ClCompile Include="2565.cpp">
-      <Filter>BackUp</Filter>
     </ClCompile>
     <ClCompile Include="1339.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
@@ -1089,12 +1074,6 @@
     <ClCompile Include="1644.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="1074.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
-    <ClCompile Include="1202.cpp">
-      <Filter>BackUp</Filter>
-    </ClCompile>
     <ClCompile Include="11660.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
@@ -1113,20 +1092,12 @@
     <ClCompile Include="10986.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
-    <ClCompile Include="10282.cpp" />
-    <ClCompile Include="13913.cpp" />
-    <ClCompile Include="1082.cpp" />
-    <ClCompile Include="1025.cpp" />
     <ClCompile Include="25498.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="메뉴 리뉴얼.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
-    <ClCompile Include="N_Queen.cpp" />
-    <ClCompile Include="과제 진행하기.cpp" />
-    <ClCompile Include="시소짝궁.cpp" />
-    <ClCompile Include="퍼즐 게임 챌린지.cpp" />
     <ClCompile Include="컬러링북.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
@@ -1172,8 +1143,74 @@
     <ClCompile Include="23891.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
+    <ClCompile Include="5550.cpp">
+      <Filter>Design Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="24394.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="3673.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="12869.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1234.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="11333.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="16637.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="과제 진행하기.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="퍼즐 게임 챌린지.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="시소짝궁.cpp">
+      <Filter>CodingTest\Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="1074.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="1202.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="2110.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
     <ClCompile Include="2461.cpp">
-      <Filter>BackUp</Filter>
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="2565.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="9019.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="11286.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="21736.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="1025.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="1082.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="10282.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="13913.cpp">
+      <Filter>BackUp\X</Filter>
+    </ClCompile>
+    <ClCompile Include="N_Queen.cpp">
+      <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
