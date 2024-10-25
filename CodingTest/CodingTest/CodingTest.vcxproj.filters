@@ -1212,5 +1212,14 @@
     <ClCompile Include="N_Queen.cpp">
       <Filter>CodingTest\Programmers</Filter>
     </ClCompile>
+    <ClCompile Include="9997.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="21606.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="22866.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
