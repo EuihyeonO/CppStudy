@@ -744,6 +744,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="6086.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="6087.cpp">
       <SubType>
       </SubType>
@@ -767,6 +771,10 @@
     </ClCompile>
     <ClCompile Include="9465.cpp" />
     <ClCompile Include="9466.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="9576.cpp">
       <SubType>
       </SubType>
     </ClCompile>
