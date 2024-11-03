@@ -1176,9 +1176,6 @@
     <ClCompile Include="1074.cpp">
       <Filter>BackUp\X</Filter>
     </ClCompile>
-    <ClCompile Include="1202.cpp">
-      <Filter>BackUp\X</Filter>
-    </ClCompile>
     <ClCompile Include="2110.cpp">
       <Filter>BackUp\X</Filter>
     </ClCompile>
@@ -1294,6 +1291,12 @@
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
     <ClCompile Include="22945.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="1202.cpp">
+      <Filter>CodingTest\BaekJoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2560.cpp">
       <Filter>CodingTest\BaekJoon</Filter>
     </ClCompile>
   </ItemGroup>

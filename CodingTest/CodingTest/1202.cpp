@@ -3,6 +3,8 @@
 //#include <queue>
 //#include <algorithm>
 //#include <cmath>
+//#include <climits>
+//#include <set>
 //
 //void Init()
 //{
@@ -13,14 +15,14 @@
 //
 //struct Compare
 //{
-//	bool operator()(const std::pair<long long, long long>& _Left, const std::pair<long long, long long>& _Right)
+//	bool operator()(const std::pair<int, int>& _Left, const std::pair<int, int>& _Right)
 //	{
 //		if (_Left.first == _Right.first)
 //		{
-//			return _Left.second < _Right.second;
+//			return _Left.second > _Right.second;
 //		}
 //
-//		return _Left.first > _Right.first;
+//		return _Left.first < _Right.first;
 //	}
 //};
 //
@@ -28,43 +30,47 @@
 //{
 //	Init();
 //
-//	long long NumJewerly = 0;
-//	long long NumBag = 0;
+//	int NumJewerly = 0;
+//	int NumBag = 0;
 //	std::cin >> NumJewerly >> NumBag;
 //
-//	std::priority_queue<std::pair<long long, long long>, std::vector<std::pair<long long, long long>>, Compare> Jewerly;
-//	std::priority_queue<long long, std::vector<long long>, std::greater<long long>> Bag;
-//	std::priority_queue<long long, std::vector<long long>, std::greater<long long>> PopBag;
-//	
-//	for (long long i = 0; i < NumJewerly; i++)
-//	{
-//		std::pair<long long, long long> Input;
-//		std::cin >> Input.first >> Input.second;
+//	std::priority_queue<std::pair<int, int>, std::vector<std::pair<int, int>>, Compare> Jewerlies;
 //
-//		Jewerly.push(Input);
+//	for (int i = 0; i < NumJewerly; i++)
+//	{
+//		int Weight = 0, Value = 0;
+//		std::cin >> Weight >> Value;
+//
+//		Jewerlies.push({Value, Weight});
 //	}
 //
-//	for (long long i = 0; i < NumBag; i++)
+//	std::multiset<int> Bags;
+//	for (int i = 0; i < NumBag; i++)
 //	{
-//		long long Input;
-//		std::cin >> Input;
+//		int BagWeight = 0;
+//		std::cin >> BagWeight;
 //
-//		Bag.push(Input);
+//		Bags.insert(BagWeight);
 //	}
 //
 //	long long Answer = 0;
-//
-//	while (Bag.size() > 0 && Jewerly.size() > 0)
+//	
+//	while (Jewerlies.size() > 0)
 //	{
-//		if (Jewerly.top().first <= Bag.top())
+//		auto [CurValue, CurWeight] = Jewerlies.top();
+//		Jewerlies.pop();
+//		
+//		auto FindIter = Bags.lower_bound(CurWeight);
+//
+//		if (FindIter != Bags.end())
 //		{
-//			Answer += Jewerly.top().second;
-//			Jewerly.pop();
-//			Bag.pop();
+//			Answer += CurValue;
+//			Bags.erase(FindIter);
 //		}
-//		else
+//
+//		if (Bags.size() ==  0)
 //		{
-//			Bag.pop();
+//			break;
 //		}
 //	}
 //
