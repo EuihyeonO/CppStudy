@@ -360,6 +360,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="14395.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="14466.cpp">
       <SubType>
       </SubType>
@@ -434,11 +438,19 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="1918.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="1937.cpp">
       <SubType>
       </SubType>
     </ClCompile>
     <ClCompile Include="1941.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="1956.cpp">
       <SubType>
       </SubType>
     </ClCompile>
